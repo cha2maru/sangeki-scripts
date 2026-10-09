@@ -1,0 +1,64 @@
+{
+ "id": "gen_s11_018",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 7,
+ "rules": [
+  "Y_BOMB",
+  "X_VIRUS",
+  "X_CIRCLE"
+ ],
+ "roles": {
+  "C25": "WITCH",
+  "C16": "MISLEADER",
+  "C29": "FRIEND",
+  "C18": "FRIEND"
+ },
+ "characters": [
+  "C10",
+  "C12",
+  "C14",
+  "C15",
+  "C16",
+  "C18",
+  "C21",
+  "C25",
+  "C29",
+  "C30"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "MISSING",
+   "culprit": "C14"
+  },
+  {
+   "day": 4,
+   "id": "MURDER",
+   "culprit": "C21"
+  },
+  {
+   "day": 5,
+   "id": "REMOTE",
+   "culprit": "C29"
+  },
+  {
+   "day": 6,
+   "id": "SPREAD",
+   "culprit": "C10"
+  },
+  {
+   "day": 7,
+   "id": "SUICIDE",
+   "culprit": "C30"
+  }
+ ],
+ "use": "generated",
+ "territory": "SCH",
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 4,
+  "read_wins_vs_search": 5
+ }
+}

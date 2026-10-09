@@ -1,0 +1,62 @@
+{
+ "id": "gen_s11_030",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 6,
+ "rules": [
+  "Y_FUTURE",
+  "X_VIRUS",
+  "X_THREAD"
+ ],
+ "roles": {
+  "C34": "CULTIST",
+  "C02": "TT",
+  "C06": "MISLEADER"
+ },
+ "characters": [
+  "C02",
+  "C04",
+  "C06",
+  "C08",
+  "C12",
+  "C26",
+  "C34"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "MISSING",
+   "culprit": "C06"
+  },
+  {
+   "day": 3,
+   "id": "REMOTE",
+   "culprit": "C08"
+  },
+  {
+   "day": 4,
+   "id": "SUICIDE",
+   "culprit": "C12"
+  },
+  {
+   "day": 5,
+   "id": "BUTTERFLY",
+   "culprit": "C02"
+  },
+  {
+   "day": 6,
+   "id": "MURDER",
+   "culprit": "C34"
+  }
+ ],
+ "use": "generated",
+ "start": {
+  "C34": "SCH"
+ },
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 3,
+  "read_wins_vs_search": 1
+ }
+}

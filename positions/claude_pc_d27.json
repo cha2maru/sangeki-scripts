@@ -1,0 +1,120 @@
+[
+ {
+  "id": "d27s61-l1d4-pc",
+  "script": "designed/d27",
+  "seed": 61,
+  "pc": "positions/games/claude_pc_d27_s61.jsonl",
+  "mm_opp": "search",
+  "at": {
+   "loop": 1,
+   "day": 4,
+   "kind": "pc_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "MVX",
+     "target": "C10"
+    }
+   ],
+   [
+    {
+     "card": "PAR-",
+     "target": "C08"
+    }
+   ]
+  ],
+  "bad": [
+   [
+    {
+     "card": "INTX",
+     "target": "C10"
+    }
+   ]
+  ],
+  "note": "実-07「キーパーソンへの移動を最優先で止める」・フ-02（射程へ運ぶ）。委員長（少女）は前日に都市へ運ばれ、伏せ札がある。移動↑↓で病院へ入ると、医者（殺人事件の犯人、不安1・臨界2、伏せ札あり）の殺人事件の標的になる。委員長に移動禁止か、医者に不安−1。委員長への暗躍禁止は移動を止めない（記録の Claude はこれで負けた）",
+  "split": "tune",
+  "mm_rec": "positions/games/frozen_claude_pc_d27_s61_mm_search_s61.pkl"
+ },
+ {
+  "id": "d27s61-l1d4-mm",
+  "script": "designed/d27",
+  "seed": 61,
+  "pc": "positions/games/claude_pc_d27_s61.jsonl",
+  "mm_opp": "search",
+  "at": {
+   "loop": 1,
+   "day": 4,
+   "kind": "mm_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "MV_V",
+     "target": "C10"
+    },
+    {
+     "card": "PAR+",
+     "target": "C08"
+    }
+   ]
+  ],
+  "note": "フ-02「能力（事件）の射程へ運んでから仕上げる」・事-08。委員長（キーパーソン）を都市から病院へ移動↑↓し、医者に不安+1 で臨界2 にすれば4日目の殺人事件で委員長を殺せる。記録の search はこれで取った",
+  "split": "hold",
+  "mm_rec": "positions/games/frozen_claude_pc_d27_s61_mm_search_s61.pkl"
+ },
+ {
+  "id": "d27g2-l1d1-pc",
+  "script": "designed/d27",
+  "seed": 62,
+  "pc": "positions/games/claude_pc_d27_guide2_s62.jsonl",
+  "mm_opp": "searchguide",
+  "at": {
+   "loop": 1,
+   "day": 1,
+   "kind": "pc_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "INTX",
+     "target": "C10"
+    }
+   ]
+  ],
+  "bad": [
+   [
+    {
+     "card": "INTX",
+     "target": "B:CIT"
+    }
+   ]
+  ],
+  "note": "ル-05（受け）・行-01（受け: 後で取り返せない方を止める）。伏せ札は都市・委員長・医者。都市の暗躍はボードに残るが、すぐの負けは無い。委員長（少女）への暗躍+2 は契約なら取り除けずループ終了時の負けが確定する。記録の Claude は都市を止めて委員長への暗躍+2 を通した",
+  "split": "tune",
+  "mm_rec": "positions/games/frozen_claude_pc_d27_guide2_s62_mm_searchguide_s62.pkl"
+ },
+ {
+  "id": "d27g2-l2d1-pc",
+  "script": "designed/d27",
+  "seed": 62,
+  "pc": "positions/games/claude_pc_d27_guide2_s62.jsonl",
+  "mm_opp": "searchguide",
+  "at": {
+   "loop": 2,
+   "day": 1,
+   "kind": "pc_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "INTX",
+     "target": "C10"
+    }
+   ]
+  ],
+  "note": "ル構-05「前のループの負け方からルールと役職を割る」・ル-05。ループ1 は委員長の暗躍2 でループ終了時に負けた（契約）。伏せ札のある委員長への暗躍禁止を1日目から",
+  "split": "hold",
+  "mm_rec": "positions/games/frozen_claude_pc_d27_guide2_s62_mm_searchguide_s62.pkl"
+ }
+]

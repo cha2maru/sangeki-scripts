@@ -1,0 +1,59 @@
+{
+ "id": "gen_s11_031",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 4,
+ "days": 7,
+ "rules": [
+  "Y_CONTRACT",
+  "X_LOVE",
+  "X_KILLER"
+ ],
+ "roles": {
+  "C04": "KEY",
+  "C13": "LOVERS",
+  "C22": "MAIN_LOVERS",
+  "C16": "FRIEND",
+  "C19": "SK"
+ },
+ "characters": [
+  "C04",
+  "C07",
+  "C10",
+  "C13",
+  "C14",
+  "C16",
+  "C17",
+  "C19",
+  "C22"
+ ],
+ "incidents": [
+  {
+   "day": 3,
+   "id": "MURDER",
+   "culprit": "C13"
+  },
+  {
+   "day": 4,
+   "id": "SUICIDE",
+   "culprit": "C22"
+  },
+  {
+   "day": 6,
+   "id": "SPREAD",
+   "culprit": "C14"
+  }
+ ],
+ "use": "generated",
+ "appear": {
+  "C13": {
+   "loop": 1
+  }
+ },
+ "territory": "SHR",
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 7,
+  "read_wins_vs_search": 6
+ }
+}

@@ -1,0 +1,61 @@
+{"kind": "mm_cards", "choice": [{"target": "B:CIT", "card": "INT2"}, {"target": "B:SHR", "card": "INT1"}, {"target": "C12", "card": "PAR+"}]}
+{"kind": "mm_ability", "choice": null}
+{"kind": "mm_ability", "choice": null}
+{"kind": "mm_cards", "choice": [{"target": "B:SHR", "card": "INT1"}, {"target": "C05", "card": "GWX"}, {"target": "C12", "card": "PAR-"}]}
+{"kind": "mm_ability", "choice": null}
+{"kind": "mm_ability", "choice": null}
+{"kind": "mm_cards", "choice": [{"target": "B:SHR", "card": "INT1"}, {"target": "C23", "card": "GWX"}, {"target": "C12", "card": "PAR-"}]}
+{"kind": "mm_ability", "choice": null}
+{"kind": "mm_ability", "choice": null}
+{"kind": "mm_cards", "choice": [{"target": "B:SHR", "card": "INT1"}, {"target": "C05", "card": "GWX"}, {"target": "C12", "card": "PAR-"}]}
+{"kind": "mm_ability", "choice": null}
+{"kind": "mm_ability", "choice": null}
+{"kind": "refuse", "choice": true}
+{"kind": "mm_cards", "choice": [{"target": "B:SHR", "card": "INT1"}, {"target": "C05", "card": "GWX"}, {"target": "C12", "card": "PAR-"}]}
+{"kind": "mm_ability", "choice": null}
+{"kind": "mm_ability", "choice": null}
+{"kind": "refuse", "choice": true}
+{"kind": "mm_cards", "choice": [{"target": "B:SHR", "card": "INT1"}, {"target": "C05", "card": "GWX"}, {"target": "C12", "card": "PAR-"}]}
+{"kind": "mm_ability", "choice": null}
+{"kind": "mm_ability", "choice": null}
+{"kind": "mm_cards", "choice": [{"target": "C34", "card": "INT2"}, {"target": "B:CIT", "card": "INT1"}, {"target": "C12", "card": "PAR+"}]}
+{"kind": "mm_ability", "choice": "C03"}
+{"kind": "mm_ability", "choice": null}
+{"kind": "mm_cards", "choice": [{"target": "C03", "card": "PAR+"}, {"target": "C12", "card": "PAR+"}, {"target": "C23", "card": "GWX"}]}
+{"kind": "mm_ability", "choice": null}
+{"kind": "mm_ability", "choice": null}
+{"kind": "incident", "choice": null}
+{"kind": "mm_cards", "choice": [{"target": "C12", "card": "GWX"}, {"target": "B:SHR", "card": "INT1"}, {"target": "C05", "card": "PAR-"}]}
+{"kind": "mm_ability", "choice": null}
+{"kind": "mm_ability", "choice": null}
+{"kind": "refuse", "choice": false}
+{"kind": "mm_cards", "choice": [{"target": "C23", "card": "GWX"}, {"target": "B:SHR", "card": "INT1"}, {"target": "C12", "card": "PAR-"}]}
+{"kind": "mm_ability", "choice": null}
+{"kind": "mm_ability", "choice": null}
+{"kind": "mm_cards", "choice": [{"target": "C23", "card": "GWX"}, {"target": "B:SHR", "card": "INT1"}, {"target": "C12", "card": "PAR-"}]}
+{"kind": "mm_ability", "choice": null}
+{"kind": "mm_ability", "choice": null}
+{"kind": "refuse", "choice": false}
+{"kind": "mm_cards", "choice": [{"target": "C23", "card": "GWX"}, {"target": "B:SHR", "card": "INT1"}, {"target": "C12", "card": "PAR-"}]}
+{"kind": "mm_ability", "choice": null}
+{"kind": "mm_ability", "choice": null}
+{"kind": "mm_cards", "choice": [{"target": "C34", "card": "INT2"}, {"target": "B:CIT", "card": "INT1"}, {"target": "C12", "card": "PAR+"}]}
+{"kind": "mm_ability", "choice": null}
+{"kind": "mm_ability", "choice": "C32"}
+{"kind": "mm_cards", "choice": [{"target": "C12", "card": "PAR+"}, {"target": "C05", "card": "GWX"}, {"target": "B:CIT", "card": "INT1"}]}
+{"kind": "mm_ability", "choice": null}
+{"kind": "mm_ability", "choice": "C32"}
+{"kind": "mm_cards", "choice": [{"target": "C12", "card": "PAR+"}, {"target": "C23", "card": "GWX"}, {"target": "B:CIT", "card": "INT1"}]}
+{"kind": "mm_ability", "choice": null}
+{"kind": "mm_ability", "choice": "C15"}
+{"kind": "incident", "choice": {"target": "C05"}}
+{"kind": "mm_cards", "choice": [{"target": "C12", "card": "PAR+"}, {"target": "C23", "card": "GWX"}, {"target": "C15", "card": "PAR-"}]}
+{"kind": "mm_ability", "choice": null}
+{"kind": "mm_ability", "choice": null}
+{"kind": "mm_cards", "choice": [{"target": "C12", "card": "PAR+"}, {"target": "C28", "card": "GWX"}, {"target": "C03", "card": "MV_V"}]}
+{"kind": "mm_ability", "choice": null}
+{"kind": "mm_ability", "choice": null}
+{"kind": "incident", "choice": {"target": "C34"}}
+{"kind": "mm_cards", "choice": [{"target": "C28", "card": "GWX"}, {"target": "C03", "card": "MV_H"}, {"target": "C12", "card": "PAR-"}]}
+{"kind": "mm_ability", "choice": null}
+{"kind": "mm_ability", "choice": null}

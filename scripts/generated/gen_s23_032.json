@@ -1,0 +1,50 @@
+{
+ "id": "gen_s23_032",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 5,
+ "rules": [
+  "Y_CONTRACT",
+  "X_KILLER",
+  "X_RUMOR"
+ ],
+ "roles": {
+  "C10": "KEY",
+  "C18": "FRIEND",
+  "C25": "SK",
+  "C21": "MISLEADER"
+ },
+ "characters": [
+  "C05",
+  "C10",
+  "C18",
+  "C21",
+  "C25",
+  "C27",
+  "C30"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "MISSING",
+   "culprit": "C30"
+  },
+  {
+   "day": 3,
+   "id": "BUTTERFLY",
+   "culprit": "C18"
+  },
+  {
+   "day": 5,
+   "id": "HOSPITAL",
+   "culprit": "C10"
+  }
+ ],
+ "use": "generated",
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 9,
+  "read_wins_vs_search": 5
+ }
+}

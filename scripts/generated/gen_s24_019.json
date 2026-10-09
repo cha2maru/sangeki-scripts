@@ -1,0 +1,65 @@
+{
+ "id": "gen_s24_019",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 6,
+ "rules": [
+  "Y_CONTRACT",
+  "X_CIRCLE",
+  "X_RUMOR"
+ ],
+ "roles": {
+  "C10": "KEY",
+  "C20": "FRIEND",
+  "C16": "FRIEND",
+  "C18": "MISLEADER"
+ },
+ "characters": [
+  "C10",
+  "C13",
+  "C16",
+  "C18",
+  "C20",
+  "C21",
+  "C25",
+  "C34"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "SPREAD",
+   "culprit": "C16"
+  },
+  {
+   "day": 3,
+   "id": "BUTTERFLY",
+   "culprit": "C18"
+  },
+  {
+   "day": 5,
+   "id": "HOSPITAL",
+   "culprit": "C21"
+  },
+  {
+   "day": 6,
+   "id": "REMOTE",
+   "culprit": "C20"
+  }
+ ],
+ "use": "generated",
+ "appear": {
+  "C13": {
+   "loop": 1
+  }
+ },
+ "territory": "SCH",
+ "start": {
+  "C34": "SCH"
+ },
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 7,
+  "read_wins_vs_search": 0
+ }
+}

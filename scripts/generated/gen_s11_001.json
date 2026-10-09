@@ -1,0 +1,54 @@
+{
+ "id": "gen_s11_001",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 5,
+ "rules": [
+  "Y_FUTURE",
+  "X_VIRUS",
+  "X_CIRCLE"
+ ],
+ "roles": {
+  "C17": "CULTIST",
+  "C03": "TT",
+  "C26": "MISLEADER",
+  "C04": "FRIEND",
+  "C08": "FRIEND"
+ },
+ "characters": [
+  "C01",
+  "C03",
+  "C04",
+  "C08",
+  "C14",
+  "C16",
+  "C17",
+  "C20",
+  "C26"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "MISSING",
+   "culprit": "C01"
+  },
+  {
+   "day": 4,
+   "id": "MISSING",
+   "culprit": "C20"
+  },
+  {
+   "day": 5,
+   "id": "SPREAD",
+   "culprit": "C08"
+  }
+ ],
+ "use": "generated",
+ "territory": "SHR",
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 6,
+  "read_wins_vs_search": 0
+ }
+}

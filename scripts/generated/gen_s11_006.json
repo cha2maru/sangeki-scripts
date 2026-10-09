@@ -1,0 +1,58 @@
+{
+ "id": "gen_s11_006",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 5,
+ "rules": [
+  "Y_SEAL",
+  "X_CIRCLE",
+  "X_FACTOR"
+ ],
+ "roles": {
+  "C23": "KUROMAKU",
+  "C34": "CULTIST",
+  "C01": "FRIEND",
+  "C20": "FRIEND",
+  "C26": "MISLEADER",
+  "C21": "FACTOR"
+ },
+ "characters": [
+  "C01",
+  "C03",
+  "C12",
+  "C15",
+  "C20",
+  "C21",
+  "C23",
+  "C26",
+  "C30",
+  "C34"
+ ],
+ "incidents": [
+  {
+   "day": 3,
+   "id": "RUMOR_SPREAD",
+   "culprit": "C23"
+  },
+  {
+   "day": 4,
+   "id": "BUTTERFLY",
+   "culprit": "C26"
+  },
+  {
+   "day": 5,
+   "id": "SPREAD",
+   "culprit": "C30"
+  }
+ ],
+ "use": "generated",
+ "start": {
+  "C34": "CIT"
+ },
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 9,
+  "read_wins_vs_search": 1
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "id": "gen_s23_021",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 5,
+ "rules": [
+  "Y_FUTURE",
+  "X_KILLER",
+  "X_CIRCLE"
+ ],
+ "roles": {
+  "C23": "CULTIST",
+  "C21": "TT",
+  "C17": "FRIEND",
+  "C22": "FRIEND",
+  "C24": "SK",
+  "C27": "MISLEADER"
+ },
+ "characters": [
+  "C14",
+  "C17",
+  "C21",
+  "C22",
+  "C23",
+  "C24",
+  "C27",
+  "C29"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "SUICIDE",
+   "culprit": "C27"
+  },
+  {
+   "day": 3,
+   "id": "SPREAD",
+   "culprit": "C24"
+  },
+  {
+   "day": 4,
+   "id": "BUTTERFLY",
+   "culprit": "C22"
+  }
+ ],
+ "use": "generated",
+ "appear": {
+  "C24": {
+   "day": 2
+  }
+ },
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 10,
+  "read_wins_vs_search": 1
+ }
+}

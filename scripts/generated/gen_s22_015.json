@@ -1,0 +1,63 @@
+{
+ "id": "gen_s22_015",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 4,
+ "days": 6,
+ "rules": [
+  "Y_MURDER",
+  "X_FACTOR",
+  "X_KILLER"
+ ],
+ "roles": {
+  "C23": "KEY",
+  "C08": "KILLER",
+  "C26": "KUROMAKU",
+  "C25": "FACTOR",
+  "C04": "FRIEND",
+  "C14": "SK"
+ },
+ "characters": [
+  "C04",
+  "C05",
+  "C08",
+  "C09",
+  "C14",
+  "C23",
+  "C25",
+  "C26"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "SUICIDE",
+   "culprit": "C08"
+  },
+  {
+   "day": 3,
+   "id": "MURDER",
+   "culprit": "C26"
+  },
+  {
+   "day": 4,
+   "id": "RUMOR_SPREAD",
+   "culprit": "C25"
+  },
+  {
+   "day": 5,
+   "id": "HOSPITAL",
+   "culprit": "C05"
+  },
+  {
+   "day": 6,
+   "id": "SPREAD",
+   "culprit": "C04"
+  }
+ ],
+ "use": "generated",
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 10,
+  "read_wins_vs_search": 5
+ }
+}

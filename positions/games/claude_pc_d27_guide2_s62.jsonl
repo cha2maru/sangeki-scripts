@@ -1,0 +1,24 @@
+{"kind": "pc_cards", "choice": [{"by": "A", "target": "B:CIT", "card": "INTX"}, {"by": "B", "target": "C07", "card": "GW2"}, {"by": "C", "target": "C08", "card": "GW2"}]}
+{"kind": "abilities", "choice": []}
+{"kind": "pc_cards", "choice": [{"by": "B", "target": "C10", "card": "INTX"}, {"by": "C", "target": "C05", "card": "GW1"}, {"by": "A", "target": "C07", "card": "GW2"}]}
+{"kind": "abilities", "choice": []}
+{"kind": "pc_cards", "choice": [{"by": "C", "target": "B:HOS", "card": "INTX"}, {"by": "A", "target": "C07", "card": "GW1"}, {"by": "B", "target": "C10", "card": "GW1"}]}
+{"kind": "abilities", "choice": [["C07", 0, {"declare": "X_THREAD"}]]}
+{"kind": "pc_cards", "choice": [{"by": "A", "target": "C19", "card": "PAR-"}, {"by": "B", "target": "B:CIT", "card": "INTX"}, {"by": "C", "target": "C08", "card": "PAR-"}]}
+{"kind": "abilities", "choice": []}
+{"kind": "pc_cards", "choice": [{"by": "B", "target": "C19", "card": "PAR-"}, {"by": "C", "target": "B:CIT", "card": "INTX"}, {"by": "A", "target": "C17", "card": "GW1"}]}
+{"kind": "abilities", "choice": []}
+{"kind": "pc_cards", "choice": [{"by": "C", "target": "B:CIT", "card": "INTX"}, {"by": "A", "target": "C10", "card": "GW1"}, {"by": "B", "target": "C05", "card": "GW1"}]}
+{"kind": "abilities", "choice": [["C10", 0, {"card": "PAR-"}]]}
+{"kind": "pc_cards", "choice": [{"by": "A", "target": "C10", "card": "INTX"}, {"by": "B", "target": "C07", "card": "GW2"}, {"by": "C", "target": "C17", "card": "GW2"}]}
+{"kind": "abilities", "choice": []}
+{"kind": "pc_cards", "choice": [{"by": "B", "target": "C10", "card": "INTX"}, {"by": "C", "target": "C07", "card": "GW1"}, {"by": "A", "target": "C06", "card": "GW1"}]}
+{"kind": "abilities", "choice": []}
+{"kind": "pc_cards", "choice": [{"by": "C", "target": "B:CIT", "card": "INTX"}, {"by": "A", "target": "C07", "card": "GW1"}, {"by": "B", "target": "C10", "card": "GW1"}]}
+{"kind": "abilities", "choice": [["C17", 0, {"target": "C19"}]]}
+{"kind": "pc_cards", "choice": [{"by": "A", "target": "C08", "card": "PAR-"}, {"by": "B", "target": "B:CIT", "card": "INTX"}, {"by": "C", "target": "C07", "card": "GW1"}]}
+{"kind": "abilities", "choice": [["C17", 0, {"target": "C19"}], ["C07", 0, {"declare": "X_LOVE"}]]}
+{"kind": "pc_cards", "choice": [{"by": "B", "target": "B:CIT", "card": "INTX"}, {"by": "C", "target": "C06", "card": "GW1"}, {"by": "A", "target": "C10", "card": "GW1"}]}
+{"kind": "abilities", "choice": [["C17", 0, {"target": "C19"}]]}
+{"kind": "pc_cards", "choice": [{"by": "C", "target": "B:CIT", "card": "INTX"}, {"by": "A", "target": "C06", "card": "GW1"}, {"by": "B", "target": "C05", "card": "GW1"}]}
+{"kind": "abilities", "choice": [["C17", 0, {"target": "C19"}], ["C06", 0, null]]}

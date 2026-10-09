@@ -1,0 +1,442 @@
+[
+ {
+  "id": "d27c-l1d4-incite",
+  "script": "designed/d27",
+  "seed": 63,
+  "mm": "positions/games/cvc_d27_s63_mm.jsonl",
+  "pc": "positions/games/cvc_d27_s63_pc.jsonl",
+  "at": {
+   "loop": 1,
+   "day": 4,
+   "kind": "pc_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "PAR+",
+     "target": "C19"
+    }
+   ],
+   [
+    {
+     "card": "GW1",
+     "target": "C05"
+    }
+   ]
+  ],
+  "note": "【自分で事件を起こして犯人を割る】J43・事-01・ル構-06。1日目の暗躍+2 で委員長に暗躍2（主人公に取り除く手段なし）、このループはほぼ負け。4日目の殺人事件の前に、学者（不安1・臨界2）に不安+1 で臨界にする。起きなければ学者は殺人事件の犯人でない（不発は観測、配役は毎ループ同じ）。刑事に友好+1 で刑事[4]（犯人を明かす）に届かせるのも情報の手。記録の Claude は学者・異世界人・委員長に不安+1",
+  "split": "tune"
+ },
+ {
+  "id": "d27c-l1d5-incite",
+  "script": "designed/d27",
+  "seed": 63,
+  "mm": "positions/games/cvc_d27_s63_mm.jsonl",
+  "pc": "positions/games/cvc_d27_s63_pc.jsonl",
+  "at": {
+   "loop": 1,
+   "day": 5,
+   "kind": "pc_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "PAR+",
+     "target": "C12"
+    }
+   ],
+   [
+    {
+     "card": "PAR+",
+     "target": "C10"
+    }
+   ]
+  ],
+  "note": "【自分で事件を起こして犯人を割る】J43・事-01・ル構-06。負けがほぼ確定したループ（委員長に暗躍2）の5日目。異世界人・委員長（ともに不安1・臨界2）に不安+1 で臨界にして自殺の発生・不発を見る（学者は臨界のまま）。前日の殺人事件は学者が臨界でも不発＝学者は殺人事件の犯人でない。記録の Claude はこの2人に不安+1 し、不発から3人を自殺の犯人の候補から外した",
+  "split": "hold"
+ },
+ {
+  "id": "d27c-l2d5-lost",
+  "script": "designed/d27",
+  "seed": 63,
+  "mm": "positions/games/cvc_d27_s63_mm.jsonl",
+  "pc": "positions/games/cvc_d27_s63_pc.jsonl",
+  "at": {
+   "loop": 2,
+   "day": 5,
+   "kind": "pc_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "GW1",
+     "target": "C07"
+    }
+   ]
+  ],
+  "note": "【守りきれないループの札を情報に】ル構-06・readreveal。都市に暗躍2、サラリーマン（不安1・臨界2）に伏せ札があり今日は自殺の日。不安−1 は3人とも使用済み、医者・ナースの友好は0で能力が届かない＝自殺は止められない。情報屋（友好4、伏せ札なし）に友好+1 で[5]に届かせ、ルールXを公開させるのが残りの札の最善の使い方（記録の Claude はこれで恋愛風景を割った）",
+  "split": "tune"
+ },
+ {
+  "id": "d27c-l3d4-def",
+  "script": "designed/d27",
+  "seed": 63,
+  "mm": "positions/games/cvc_d27_s63_mm.jsonl",
+  "pc": "positions/games/cvc_d27_s63_pc.jsonl",
+  "at": {
+   "loop": 3,
+   "day": 4,
+   "kind": "pc_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "PAR-",
+     "target": "C08"
+    }
+   ]
+  ],
+  "note": "【守りが先（情報を取りに行かない）】ル構-08。都市に暗躍2（サラリーマン＝ファクターの疑いにキーパーソンの能力）、医者（不安1・臨界2、伏せ札あり）が都市にいて今日は殺人事件。医者に不安−1 が必須。刑事・委員長への友好は後回し。記録の Claude は医者に不安−1 でこのループを守りきった",
+  "split": "tune"
+ },
+ {
+  "id": "d16c-l1d4-lost",
+  "script": "designed/d16",
+  "seed": 64,
+  "mm": "positions/games/cvc_d16_s64_mm.jsonl",
+  "pc": "positions/games/cvc_d16_s64_pc.jsonl",
+  "at": {
+   "loop": 1,
+   "day": 4,
+   "kind": "pc_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "GW2",
+     "target": "C15"
+    }
+   ],
+   [
+    {
+     "card": "GW1",
+     "target": "C05"
+    }
+   ],
+   [
+    {
+     "card": "GW2",
+     "target": "C23"
+    }
+   ]
+  ],
+  "note": "【負けそうなループで役職を炙る】J01・ル構-01・ル構-06。1日目から都市に暗躍2（爆弾・ファクターの疑い、主人公に取り除く手段なし）。マスコミ（友好0）に友好+2 でマスコミ[2]（回数制限なし）に届かせ、空撃ちで拒否を見る（拒否なら絶対友好無視＝ウィッチかカルティスト）。刑事[4]（友好3）に届かせるのも情報の手。記録の Claude はマスコミの拒否からウィッチを割った。教師（友好0）に友好+2 も可（6日目に教師[4]で学生の役職を明かせる）",
+  "split": "tune"
+ },
+ {
+  "id": "d16c-l2d5-lost",
+  "script": "designed/d16",
+  "seed": 64,
+  "mm": "positions/games/cvc_d16_s64_mm.jsonl",
+  "pc": "positions/games/cvc_d16_s64_pc.jsonl",
+  "at": {
+   "loop": 2,
+   "day": 5,
+   "kind": "pc_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "GW1",
+     "target": "C05"
+    }
+   ],
+   [
+    {
+     "card": "GW2",
+     "target": "C05"
+    }
+   ]
+  ],
+  "note": "【負けたループの札を情報に】ル構-06・readreveal。2日目の自殺で従者が身代わりに死亡（ループ終了時の負けの疑い）。今日の遠隔殺人の犯人候補は臨界から遠く、都市の暗躍は0（明日の暗躍禁止で間に合う）＝今日守るものがない。刑事（友好3、伏せ札なし）に友好で[4]に届かせ、事件の犯人を明かす。記録の Claude は刑事[4] で自殺の犯人＝お嬢様を割った",
+  "split": "hold"
+ },
+ {
+  "id": "d27g2-l1d2-info",
+  "script": "designed/d27",
+  "seed": 62,
+  "pc": "positions/games/claude_pc_d27_guide2_s62.jsonl",
+  "mm_opp": "searchguide",
+  "mm_rec": "positions/games/frozen_claude_pc_d27_guide2_s62_mm_searchguide_s62.pkl",
+  "at": {
+   "loop": 1,
+   "day": 2,
+   "kind": "pc_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "GW2",
+     "target": "C07"
+    }
+   ],
+   [
+    {
+     "card": "GW1",
+     "target": "C07"
+    }
+   ]
+  ],
+  "note": "【情報の能力の持ち主に友好を積む】readreveal・ル構-01。1日目の暗躍+2 が通り委員長に暗躍2（取り除けない）＝ループ1はほぼ負け。情報屋（友好2、伏せ札なし）に友好を積み、翌日に[5]でルールXを公開させる。記録の Claude は2→4→5 で3日目に恋愛風景を割った",
+  "split": "hold"
+ },
+ {
+  "id": "d27g2-l1d3-info",
+  "script": "designed/d27",
+  "seed": 62,
+  "pc": "positions/games/claude_pc_d27_guide2_s62.jsonl",
+  "mm_opp": "searchguide",
+  "mm_rec": "positions/games/frozen_claude_pc_d27_guide2_s62_mm_searchguide_s62.pkl",
+  "at": {
+   "loop": 1,
+   "day": 3,
+   "kind": "pc_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "GW1",
+     "target": "C07"
+    }
+   ],
+   [
+    {
+     "card": "GW2",
+     "target": "C07"
+    }
+   ]
+  ],
+  "note": "【情報の能力の閾値に届かせる】readreveal・J35 の受け。情報屋が友好4、伏せ札は情報屋に無い（友好禁止の心配なし）。友好+1 で[5]、ルールXを公開。今日の事件（行方不明）は危険が小さく、医者の殺人事件は明日。記録の Claude はこれで恋愛風景を割った",
+  "split": "tune"
+ },
+ {
+  "id": "d27g2-l1d4-def",
+  "script": "designed/d27",
+  "seed": 62,
+  "pc": "positions/games/claude_pc_d27_guide2_s62.jsonl",
+  "mm_opp": "searchguide",
+  "mm_rec": "positions/games/frozen_claude_pc_d27_guide2_s62_mm_searchguide_s62.pkl",
+  "at": {
+   "loop": 1,
+   "day": 4,
+   "kind": "pc_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "PAR-",
+     "target": "C08"
+    }
+   ]
+  ],
+  "note": "【守りが先】前日に恋愛風景が割れた。医者は不安2・臨界2（伏せ札あり）で今日は殺人事件。病院でナース（ラバーズの候補）が殺されると学者（暗躍1）がメインラバーズとして主人公を殺しうる。医者に不安−1 が先。委員長・刑事への友好は後回し",
+  "split": "hold"
+ },
+ {
+  "id": "d27g2-l2d6-info",
+  "script": "designed/d27",
+  "seed": 62,
+  "pc": "positions/games/claude_pc_d27_guide2_s62.jsonl",
+  "mm_opp": "searchguide",
+  "mm_rec": "positions/games/frozen_claude_pc_d27_guide2_s62_mm_searchguide_s62.pkl",
+  "at": {
+   "loop": 2,
+   "day": 6,
+   "kind": "pc_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "GW1",
+     "target": "C06"
+    }
+   ],
+   [
+    {
+     "card": "GW2",
+     "target": "C06"
+    }
+   ]
+  ],
+  "note": "【拒否を見る・役職を明かす能力に届かせる】J01・readreveal。最終日。委員長は暗躍0で脚本家の暗躍+2 は使用済み（契約は届かない）、学者の不安はナース[2] で消せる＝守りに余裕がある。サラリーマン（友好2）に友好+1 で[3]（自身の役職を明かす、回数制限なし）を使い、拒否ならファクターの疑い（ルールXに不定因子χが公開済み）。記録の Claude はこれでファクターを確定した",
+  "split": "tune"
+ },
+ {
+  "id": "d27s61-l2d4-info",
+  "script": "designed/d27",
+  "seed": 61,
+  "pc": "positions/games/claude_pc_d27_s61.jsonl",
+  "mm_opp": "search",
+  "mm_rec": "positions/games/frozen_claude_pc_d27_s61_mm_search_s61.pkl",
+  "at": {
+   "loop": 2,
+   "day": 4,
+   "kind": "pc_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "GW1",
+     "target": "C07"
+    }
+   ]
+  ],
+  "note": "【情報の能力の閾値に届かせる】readreveal。情報屋が友好4、情報屋に伏せ札なし。友好+1 で[5]、ルールXを公開。医者は都市にいて殺人事件があるが、委員長（前ループでキーパーソンと割れた）は学校で巻き込まれない。記録の Claude は医者に不安−1 も置き、情報屋[5] で恋愛風景を割った",
+  "split": "tune"
+ },
+ {
+  "id": "d16gS-l1d6-info",
+  "script": "designed/d16",
+  "seed": 66,
+  "pc": "positions/games/claude_pc_d16_guideS_s66.jsonl",
+  "mm_opp": "searchguideS",
+  "mm_rec": "positions/games/frozen_claude_pc_d16_guideS_s66_mm_searchguideS_s66.pkl",
+  "at": {
+   "loop": 1,
+   "day": 6,
+   "kind": "pc_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "GW1",
+     "target": "C23"
+    }
+   ],
+   [
+    {
+     "card": "GW1",
+     "target": "C03"
+    }
+   ]
+  ],
+  "note": "【友好禁止をかわして情報の能力に届かせる】J35 の受け・readreveal。従者が身代わりに死んだ負けそうなループの最終日。教師（友好3、伏せ札あり＝友好禁止の疑い）に教師[4]（学生の役職を明かす）を使いたい。教師に友好+1 か、同じ学校のお嬢様（友好2）に友好+1 してお嬢様[3]で教師に友好+1（札でない友好は友好禁止に止められない）。記録の Claude は両方を置き、教師[4] でお嬢様＝ファクターを割った",
+  "split": "tune"
+ },
+ {
+  "id": "d16gS-l2d2-j14",
+  "script": "designed/d16",
+  "seed": 66,
+  "pc": "positions/games/claude_pc_d16_guideS_s66.jsonl",
+  "mm_opp": "searchguideS",
+  "mm_rec": "positions/games/frozen_claude_pc_d16_guideS_s66_mm_searchguideS_s66.pkl",
+  "at": {
+   "loop": 2,
+   "day": 2,
+   "kind": "pc_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "INTX",
+     "target": "B:CIT"
+    }
+   ]
+  ],
+  "bad": [
+   [
+    {
+     "card": "PAR-",
+     "target": "C03"
+    }
+   ]
+  ],
+  "note": "【起こさせて得をする事件】J14・J43・J46。お嬢様は前ループに教師[4]でファクターと判明、ミスリーダーの不安で臨界（今日は自殺の日）。従者（フレンド）は前日に神社へ離した。都市の暗躍を2未満に保てば（都市の伏せ札に暗躍禁止）、ファクターの自殺は負けにならず、以後の都市の脅威も消え、自殺の犯人も確かめられる。お嬢様に不安−1 で止めるのは悪手。記録の Claude はさらにアルバイトに友好+2 で特性の死（殺人事件の犯人を消す）",
+  "split": "hold"
+ },
+ {
+  "id": "d16gS-l2d5-info",
+  "script": "designed/d16",
+  "seed": 66,
+  "pc": "positions/games/claude_pc_d16_guideS_s66.jsonl",
+  "mm_opp": "searchguideS",
+  "mm_rec": "positions/games/frozen_claude_pc_d16_guideS_s66_mm_searchguideS_s66.pkl",
+  "at": {
+   "loop": 2,
+   "day": 5,
+   "kind": "pc_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "GW1",
+     "target": "C28"
+    }
+   ],
+   [
+    {
+     "card": "GW2",
+     "target": "C28"
+    }
+   ]
+  ],
+  "note": "【情報の能力の閾値に届かせる】readreveal。コピーキャット（友好2、伏せ札なし）に友好+1 でコピーキャット[3]（ループ2以降、拒否されない、同じ役職の人物を明かす）。今日の遠隔殺人の犯人候補は臨界から遠く、都市の暗躍0（脚本家の暗躍+2 は使用済み、明日の暗躍禁止で間に合う）＝今日は守るものがない。記録の Claude はこれで教師とコピーキャットが同じ役職（ミスリーダー）と割った",
+  "split": "tune"
+ },
+ {
+  "id": "d16S8-l1d4-info",
+  "script": "designed/d16",
+  "seed": 67,
+  "pc": "positions/games/claude_pc_d16_S8_s67.jsonl",
+  "mm_opp": "searchS8",
+  "at": {
+   "loop": 1,
+   "day": 4,
+   "kind": "pc_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "GW1",
+     "target": "C23"
+    }
+   ],
+   [
+    {
+     "card": "GW2",
+     "target": "C23"
+    }
+   ]
+  ],
+  "note": "【情報の能力の閾値に届かせる】readreveal。従者が身代わりに死んだ負けそうなループ。教師が友好3、伏せ札なし。友好+1 で教師[4]（学生の役職を明かす）でお嬢様の役職を割る。記録の Claude はこれでお嬢様＝ファクターを割った",
+  "split": "hold",
+  "mm_rec": "positions/games/frozen_claude_pc_d16_S8_s67_mm_searchS8_s67.pkl"
+ },
+ {
+  "id": "d16S8-l1d6-j01",
+  "script": "designed/d16",
+  "seed": 67,
+  "pc": "positions/games/claude_pc_d16_S8_s67.jsonl",
+  "mm_opp": "searchS8",
+  "at": {
+   "loop": 1,
+   "day": 6,
+   "kind": "pc_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "GW1",
+     "target": "C15"
+    },
+    {
+     "card": "INTX",
+     "target": "B:CIT"
+    }
+   ]
+  ],
+  "note": "【守りと情報の両立】J01・ル構-06。最終日、都市は暗躍1で都市に伏せ札（爆弾の疑い）→都市に暗躍禁止は要る。残りの札でマスコミ（友好1）に友好+1 して[2]（回数制限なし）を空撃ちし、拒否を見る（拒否なら絶対友好無視＝ウィッチかカルティスト）。記録の Claude は両方を置き、マスコミの拒否を見た",
+  "split": "tune",
+  "mm_rec": "positions/games/frozen_claude_pc_d16_S8_s67_mm_searchS8_s67.pkl"
+ }
+]

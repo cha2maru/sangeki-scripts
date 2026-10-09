@@ -1,0 +1,72 @@
+{
+ "id": "gen_s25_016",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 6,
+ "rules": [
+  "Y_MURDER",
+  "X_VIRUS",
+  "X_LOVE"
+ ],
+ "roles": {
+  "C06": "KEY",
+  "C17": "KILLER",
+  "C34": "KUROMAKU",
+  "C19": "MISLEADER",
+  "C12": "LOVERS",
+  "C24": "MAIN_LOVERS"
+ },
+ "characters": [
+  "C05",
+  "C06",
+  "C12",
+  "C14",
+  "C17",
+  "C18",
+  "C19",
+  "C24",
+  "C34"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "SUICIDE",
+   "culprit": "C17"
+  },
+  {
+   "day": 3,
+   "id": "SPREAD",
+   "culprit": "C19"
+  },
+  {
+   "day": 4,
+   "id": "REMOTE",
+   "culprit": "C05"
+  },
+  {
+   "day": 5,
+   "id": "REMOTE",
+   "culprit": "C24"
+  },
+  {
+   "day": 6,
+   "id": "SUICIDE",
+   "culprit": "C18"
+  }
+ ],
+ "use": "generated",
+ "appear": {
+  "C24": {
+   "day": 2
+  }
+ },
+ "start": {
+  "C34": "CIT"
+ },
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 3,
+  "read_wins_vs_search": 0
+ }
+}

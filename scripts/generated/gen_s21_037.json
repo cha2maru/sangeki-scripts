@@ -1,0 +1,58 @@
+{
+ "id": "gen_s21_037",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 6,
+ "rules": [
+  "Y_FUTURE",
+  "X_CIRCLE",
+  "X_VIRUS"
+ ],
+ "roles": {
+  "C07": "CULTIST",
+  "C21": "TT",
+  "C04": "FRIEND",
+  "C23": "FRIEND",
+  "C22": "MISLEADER"
+ },
+ "characters": [
+  "C04",
+  "C07",
+  "C09",
+  "C21",
+  "C22",
+  "C23",
+  "C24",
+  "C29",
+  "C31"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "SUICIDE",
+   "culprit": "C23"
+  },
+  {
+   "day": 4,
+   "id": "HOSPITAL",
+   "culprit": "C07"
+  },
+  {
+   "day": 5,
+   "id": "RUMOR_SPREAD",
+   "culprit": "C24"
+  }
+ ],
+ "use": "generated",
+ "appear": {
+  "C24": {
+   "day": 2
+  }
+ },
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 6,
+  "read_wins_vs_search": 3
+ }
+}

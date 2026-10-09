@@ -1,0 +1,54 @@
+{
+ "id": "gen_s11_035",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 4,
+ "days": 7,
+ "rules": [
+  "Y_CONTRACT",
+  "X_CIRCLE",
+  "X_KILLER"
+ ],
+ "roles": {
+  "C14": "KEY",
+  "C10": "FRIEND",
+  "C21": "FRIEND",
+  "C03": "MISLEADER",
+  "C26": "SK"
+ },
+ "characters": [
+  "C03",
+  "C04",
+  "C08",
+  "C10",
+  "C14",
+  "C17",
+  "C20",
+  "C21",
+  "C25",
+  "C26"
+ ],
+ "incidents": [
+  {
+   "day": 3,
+   "id": "REMOTE",
+   "culprit": "C20"
+  },
+  {
+   "day": 4,
+   "id": "BUTTERFLY",
+   "culprit": "C10"
+  },
+  {
+   "day": 6,
+   "id": "MISSING",
+   "culprit": "C04"
+  }
+ ],
+ "use": "generated",
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 4,
+  "read_wins_vs_search": 3
+ }
+}

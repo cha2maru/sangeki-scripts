@@ -1,0 +1,68 @@
+{
+ "id": "gen_s21_039",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 5,
+ "rules": [
+  "Y_BOMB",
+  "X_FACTOR",
+  "X_CIRCLE"
+ ],
+ "roles": {
+  "C08": "WITCH",
+  "C06": "FACTOR",
+  "C16": "FRIEND",
+  "C04": "FRIEND",
+  "C15": "MISLEADER"
+ },
+ "characters": [
+  "C04",
+  "C06",
+  "C08",
+  "C13",
+  "C15",
+  "C16",
+  "C18",
+  "C20",
+  "C24",
+  "C31"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "REMOTE",
+   "culprit": "C08"
+  },
+  {
+   "day": 3,
+   "id": "BUTTERFLY",
+   "culprit": "C15"
+  },
+  {
+   "day": 4,
+   "id": "CORRUPT",
+   "culprit": "C24"
+  },
+  {
+   "day": 5,
+   "id": "SUICIDE",
+   "culprit": "C31"
+  }
+ ],
+ "use": "generated",
+ "appear": {
+  "C13": {
+   "loop": 2
+  },
+  "C24": {
+   "day": 3
+  }
+ },
+ "territory": "SCH",
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 4,
+  "read_wins_vs_search": 1
+ }
+}

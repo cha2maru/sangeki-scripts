@@ -1,0 +1,68 @@
+{
+ "id": "gen_s11_002",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 5,
+ "days": 7,
+ "rules": [
+  "Y_CONTRACT",
+  "X_KILLER",
+  "X_CIRCLE"
+ ],
+ "roles": {
+  "C04": "KEY",
+  "C01": "FRIEND",
+  "C12": "FRIEND",
+  "C26": "SK",
+  "C05": "MISLEADER"
+ },
+ "characters": [
+  "C01",
+  "C04",
+  "C05",
+  "C08",
+  "C12",
+  "C17",
+  "C24",
+  "C26",
+  "C27"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "SUICIDE",
+   "culprit": "C24"
+  },
+  {
+   "day": 3,
+   "id": "MURDER",
+   "culprit": "C27"
+  },
+  {
+   "day": 4,
+   "id": "HOSPITAL",
+   "culprit": "C01"
+  },
+  {
+   "day": 5,
+   "id": "HOSPITAL",
+   "culprit": "C08"
+  },
+  {
+   "day": 7,
+   "id": "MURDER",
+   "culprit": "C17"
+  }
+ ],
+ "use": "generated",
+ "appear": {
+  "C24": {
+   "day": 2
+  }
+ },
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 6,
+  "read_wins_vs_search": 1
+ }
+}

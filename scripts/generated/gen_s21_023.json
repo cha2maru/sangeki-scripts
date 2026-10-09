@@ -1,0 +1,58 @@
+{
+ "id": "gen_s21_023",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 5,
+ "rules": [
+  "Y_FUTURE",
+  "X_THREAD",
+  "X_KILLER"
+ ],
+ "roles": {
+  "C04": "CULTIST",
+  "C10": "TT",
+  "C25": "FRIEND",
+  "C29": "SK"
+ },
+ "characters": [
+  "C04",
+  "C10",
+  "C16",
+  "C18",
+  "C19",
+  "C25",
+  "C26",
+  "C29",
+  "C31"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "REMOTE",
+   "culprit": "C31"
+  },
+  {
+   "day": 3,
+   "id": "REMOTE",
+   "culprit": "C29"
+  },
+  {
+   "day": 4,
+   "id": "RUMOR_SPREAD",
+   "culprit": "C16"
+  },
+  {
+   "day": 5,
+   "id": "BUTTERFLY",
+   "culprit": "C10"
+  }
+ ],
+ "use": "generated",
+ "territory": "SCH",
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 4,
+  "read_wins_vs_search": 2
+ }
+}

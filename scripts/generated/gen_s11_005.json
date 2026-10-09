@@ -1,0 +1,61 @@
+{
+ "id": "gen_s11_005",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 4,
+ "days": 7,
+ "rules": [
+  "Y_SEAL",
+  "X_LOVE",
+  "X_THREAD"
+ ],
+ "roles": {
+  "C06": "KUROMAKU",
+  "C05": "CULTIST",
+  "C14": "LOVERS",
+  "C20": "MAIN_LOVERS"
+ },
+ "characters": [
+  "C03",
+  "C05",
+  "C06",
+  "C14",
+  "C16",
+  "C18",
+  "C20"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "MURDER",
+   "culprit": "C03"
+  },
+  {
+   "day": 3,
+   "id": "SPREAD",
+   "culprit": "C14"
+  },
+  {
+   "day": 4,
+   "id": "RUMOR_SPREAD",
+   "culprit": "C06"
+  },
+  {
+   "day": 6,
+   "id": "SPREAD",
+   "culprit": "C16"
+  },
+  {
+   "day": 7,
+   "id": "HOSPITAL",
+   "culprit": "C20"
+  }
+ ],
+ "use": "generated",
+ "territory": "CIT",
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 3,
+  "read_wins_vs_search": 1
+ }
+}

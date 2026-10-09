@@ -1,0 +1,56 @@
+{
+ "id": "gen_s11_032",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 6,
+ "rules": [
+  "Y_FUTURE",
+  "X_VIRUS",
+  "X_RUMOR"
+ ],
+ "roles": {
+  "C09": "CULTIST",
+  "C04": "TT",
+  "C13": "MISLEADER"
+ },
+ "characters": [
+  "C03",
+  "C04",
+  "C05",
+  "C09",
+  "C13",
+  "C17",
+  "C18",
+  "C26",
+  "C30"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "REMOTE",
+   "culprit": "C03"
+  },
+  {
+   "day": 3,
+   "id": "SUICIDE",
+   "culprit": "C13"
+  },
+  {
+   "day": 4,
+   "id": "REMOTE",
+   "culprit": "C17"
+  }
+ ],
+ "use": "generated",
+ "appear": {
+  "C13": {
+   "loop": 1
+  }
+ },
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 12,
+  "read_wins_vs_search": 0
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "id": "gen_b31_031",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 7,
+ "rules": [
+  "Y_FUTURE",
+  "X_KILLER",
+  "X_RUMOR"
+ ],
+ "roles": {
+  "C22": "CULTIST",
+  "C12": "TT",
+  "C14": "FRIEND",
+  "C31": "SK",
+  "C15": "MISLEADER"
+ },
+ "characters": [
+  "C01",
+  "C12",
+  "C13",
+  "C14",
+  "C15",
+  "C21",
+  "C22",
+  "C23",
+  "C31",
+  "C34"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "CORRUPT",
+   "culprit": "C21"
+  },
+  {
+   "day": 3,
+   "id": "REMOTE",
+   "culprit": "C12"
+  },
+  {
+   "day": 4,
+   "id": "RUMOR_SPREAD",
+   "culprit": "C23"
+  },
+  {
+   "day": 5,
+   "id": "RUMOR_SPREAD",
+   "culprit": "C14"
+  },
+  {
+   "day": 6,
+   "id": "HOSPITAL",
+   "culprit": "C01"
+  }
+ ],
+ "use": "generated",
+ "appear": {
+  "C13": {
+   "loop": 2
+  }
+ },
+ "start": {
+  "C34": "CIT"
+ },
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 8,
+  "read_wins_vs_search": 1
+ }
+}

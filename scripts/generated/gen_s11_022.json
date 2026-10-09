@@ -1,0 +1,63 @@
+{
+ "id": "gen_s11_022",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 6,
+ "rules": [
+  "Y_MURDER",
+  "X_VIRUS",
+  "X_CIRCLE"
+ ],
+ "roles": {
+  "C14": "KEY",
+  "C03": "KILLER",
+  "C15": "KUROMAKU",
+  "C34": "MISLEADER",
+  "C20": "FRIEND",
+  "C13": "FRIEND"
+ },
+ "characters": [
+  "C01",
+  "C03",
+  "C13",
+  "C14",
+  "C15",
+  "C20",
+  "C23",
+  "C25",
+  "C29",
+  "C34"
+ ],
+ "incidents": [
+  {
+   "day": 3,
+   "id": "REMOTE",
+   "culprit": "C20"
+  },
+  {
+   "day": 4,
+   "id": "RUMOR_SPREAD",
+   "culprit": "C34"
+  },
+  {
+   "day": 5,
+   "id": "HOSPITAL",
+   "culprit": "C03"
+  }
+ ],
+ "use": "generated",
+ "appear": {
+  "C13": {
+   "loop": 2
+  }
+ },
+ "start": {
+  "C34": "SCH"
+ },
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 6,
+  "read_wins_vs_search": 3
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "id": "gen_b31_019",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 7,
+ "rules": [
+  "Y_SEAL",
+  "X_CIRCLE",
+  "X_THREAD"
+ ],
+ "roles": {
+  "C05": "KUROMAKU",
+  "C18": "CULTIST",
+  "C04": "FRIEND",
+  "C29": "FRIEND",
+  "C26": "MISLEADER"
+ },
+ "characters": [
+  "C01",
+  "C04",
+  "C05",
+  "C08",
+  "C15",
+  "C18",
+  "C26",
+  "C29"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "SUICIDE",
+   "culprit": "C26"
+  },
+  {
+   "day": 3,
+   "id": "REMOTE",
+   "culprit": "C05"
+  },
+  {
+   "day": 4,
+   "id": "SUICIDE",
+   "culprit": "C15"
+  },
+  {
+   "day": 6,
+   "id": "SPREAD",
+   "culprit": "C29"
+  }
+ ],
+ "use": "generated",
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 11,
+  "read_wins_vs_search": 6
+ }
+}

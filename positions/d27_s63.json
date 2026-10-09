@@ -1,0 +1,152 @@
+[
+ {
+  "id": "d27c-l1d1-mm",
+  "script": "designed/d27",
+  "seed": 63,
+  "mm": "positions/games/cvc_d27_s63_mm.jsonl",
+  "pc": "positions/games/cvc_d27_s63_pc.jsonl",
+  "at": {
+   "loop": 1,
+   "day": 1,
+   "kind": "mm_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "INT2",
+     "target": "C10"
+    }
+   ]
+  ],
+  "note": "ル-05「契約: 1日目の少女への暗躍+2 は通すと取り返せない」・ル構-01。委員長（キーパーソン、暗躍を取り除ける人物がいない）へ1日目に暗躍+2 が通ればループ終了時の負けが確定。主人公はまだ何も割っていないので、少女は委員長・異世界人・妹の3人から読めない。記録の Claude は委員長に暗躍+2 で確定させた",
+  "split": "hold"
+ },
+ {
+  "id": "d27c-l2d1-mm",
+  "script": "designed/d27",
+  "seed": 63,
+  "mm": "positions/games/cvc_d27_s63_mm.jsonl",
+  "pc": "positions/games/cvc_d27_s63_pc.jsonl",
+  "at": {
+   "loop": 2,
+   "day": 1,
+   "kind": "mm_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "INT2",
+     "target": "B:CIT"
+    },
+    {
+     "card": "INT1",
+     "target": "C10"
+    }
+   ]
+  ],
+  "bad": [
+   [
+    {
+     "card": "INT2",
+     "target": "C10"
+    }
+   ]
+  ],
+  "note": "行-01「暗躍の二択」＋ル構-03（割れた筋をおとりに）・ル構-04。ループ1 の負け方で契約・委員長は割れていて、委員長への暗躍+2 は確実に止められる。暗躍+1 を委員長に置いて暗躍禁止を吸わせ、暗躍+2 は都市（ファクター＝サラリーマンの不定因子χ、5日目の自殺でキーパーソンの死）へ。記録の Claude はこれで都市2 を作りループ2 を取った",
+  "split": "tune"
+ },
+ {
+  "id": "d27c-l2d3-mm",
+  "script": "designed/d27",
+  "seed": 63,
+  "mm": "positions/games/cvc_d27_s63_mm.jsonl",
+  "pc": "positions/games/cvc_d27_s63_pc.jsonl",
+  "at": {
+   "loop": 2,
+   "day": 3,
+   "kind": "mm_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "PAR+",
+     "target": "C06"
+    }
+   ]
+  ],
+  "note": "行-13「1回きりの札の残弾を数えて押す日を決める」・行-06。都市は暗躍2 でサラリーマン（ファクター、臨界2）が死ねばキーパーソンの死。5日目の自殺まで不安を2つ積む必要があり、主人公の不安−1 は残り2枚。3日目から毎日サラリーマンに不安+1 を置けば、5日目には不安−1 が尽きて通る（記録どおり5日目に決まった）",
+  "split": "tune"
+ },
+ {
+  "id": "d27c-l2d5-mm",
+  "script": "designed/d27",
+  "seed": 63,
+  "mm": "positions/games/cvc_d27_s63_mm.jsonl",
+  "pc": "positions/games/cvc_d27_s63_pc.jsonl",
+  "at": {
+   "loop": 2,
+   "day": 5,
+   "kind": "mm_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "PAR+",
+     "target": "C06"
+    }
+   ]
+  ],
+  "note": "行-13・ル-12「都市の暗躍はキーパーソンの死の入口」。主人公の不安−1 は3枚とも使用済み。サラリーマン（不安1、臨界2）に不安+1 で今日の自殺が起き、都市2 なのでファクターがキーパーソンの能力を持ち即敗北。医者[2] は病院にいて届かない",
+  "split": "hold"
+ },
+ {
+  "id": "d27c-l1d1-pc",
+  "script": "designed/d27",
+  "seed": 63,
+  "mm": "positions/games/cvc_d27_s63_mm.jsonl",
+  "pc": "positions/games/cvc_d27_s63_pc.jsonl",
+  "at": {
+   "loop": 1,
+   "day": 1,
+   "kind": "pc_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "INTX",
+     "target": "C10"
+    }
+   ],
+   [
+    {
+     "card": "INTX",
+     "target": "C12"
+    }
+   ]
+  ],
+  "note": "ル-05（受け）。少女が3人いて契約の可能性があり、少女の暗躍を取り除く能力の持ち主はいない。伏せ札のある少女（委員長・異世界人）への暗躍禁止を優先する。記録の主人公は学者に暗躍禁止を置き、委員長への暗躍+2 を通して契約で負けた",
+  "split": "hold"
+ },
+ {
+  "id": "d27c-l2d2-pc",
+  "script": "designed/d27",
+  "seed": 63,
+  "mm": "positions/games/cvc_d27_s63_mm.jsonl",
+  "pc": "positions/games/cvc_d27_s63_pc.jsonl",
+  "at": {
+   "loop": 2,
+   "day": 2,
+   "kind": "pc_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "PAR-",
+     "target": "C12"
+    }
+   ]
+  ],
+  "note": "事-05「補給の事件の犯人を止める」。異世界人は不安1（臨界2）で伏せ札があり、今日の不安拡大が起きると不安2と暗躍1が脚本家の選ぶ所へ置かれる（事-06: 2本の負け筋へ同時に）。札では取り返せないので、効果が出る前に犯人の不安を止める。記録の主人公は不安−1 で止めた",
+  "split": "tune"
+ }
+]

@@ -1,0 +1,64 @@
+{
+ "id": "gen_s11_026",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 5,
+ "rules": [
+  "Y_MURDER",
+  "X_LOVE",
+  "X_FACTOR"
+ ],
+ "roles": {
+  "C16": "KEY",
+  "C26": "KILLER",
+  "C09": "KUROMAKU",
+  "C34": "LOVERS",
+  "C27": "MAIN_LOVERS",
+  "C15": "FACTOR"
+ },
+ "characters": [
+  "C01",
+  "C02",
+  "C08",
+  "C09",
+  "C15",
+  "C16",
+  "C23",
+  "C26",
+  "C27",
+  "C34"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "BUTTERFLY",
+   "culprit": "C27"
+  },
+  {
+   "day": 3,
+   "id": "MURDER",
+   "culprit": "C08"
+  },
+  {
+   "day": 4,
+   "id": "CORRUPT",
+   "culprit": "C15"
+  },
+  {
+   "day": 5,
+   "id": "CORRUPT",
+   "culprit": "C26"
+  }
+ ],
+ "use": "generated",
+ "territory": "HOS",
+ "start": {
+  "C34": "CIT"
+ },
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 11,
+  "read_wins_vs_search": 4
+ }
+}

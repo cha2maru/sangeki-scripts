@@ -1,0 +1,62 @@
+{
+ "id": "gen_b31_035",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 5,
+ "rules": [
+  "Y_SEAL",
+  "X_VIRUS",
+  "X_THREAD"
+ ],
+ "roles": {
+  "C12": "KUROMAKU",
+  "C03": "CULTIST",
+  "C29": "MISLEADER"
+ },
+ "characters": [
+  "C03",
+  "C04",
+  "C05",
+  "C06",
+  "C07",
+  "C12",
+  "C15",
+  "C24",
+  "C29",
+  "C31"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "SPREAD",
+   "culprit": "C07"
+  },
+  {
+   "day": 3,
+   "id": "MURDER",
+   "culprit": "C06"
+  },
+  {
+   "day": 4,
+   "id": "HOSPITAL",
+   "culprit": "C05"
+  },
+  {
+   "day": 5,
+   "id": "MISSING",
+   "culprit": "C03"
+  }
+ ],
+ "use": "generated",
+ "appear": {
+  "C24": {
+   "day": 2
+  }
+ },
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 6,
+  "read_wins_vs_search": 2
+ }
+}

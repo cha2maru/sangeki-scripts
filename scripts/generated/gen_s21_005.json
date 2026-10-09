@@ -1,0 +1,59 @@
+{
+ "id": "gen_s21_005",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 5,
+ "rules": [
+  "Y_FUTURE",
+  "X_VIRUS",
+  "X_FACTOR"
+ ],
+ "roles": {
+  "C22": "CULTIST",
+  "C26": "TT",
+  "C13": "MISLEADER",
+  "C15": "FACTOR"
+ },
+ "characters": [
+  "C13",
+  "C15",
+  "C16",
+  "C22",
+  "C23",
+  "C24",
+  "C26"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "MISSING",
+   "culprit": "C16"
+  },
+  {
+   "day": 4,
+   "id": "MISSING",
+   "culprit": "C24"
+  },
+  {
+   "day": 5,
+   "id": "RUMOR_SPREAD",
+   "culprit": "C23"
+  }
+ ],
+ "use": "generated",
+ "appear": {
+  "C13": {
+   "loop": 1
+  },
+  "C24": {
+   "day": 3
+  }
+ },
+ "territory": "SCH",
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 8,
+  "read_wins_vs_search": 5
+ }
+}

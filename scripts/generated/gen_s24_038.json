@@ -1,0 +1,64 @@
+{
+ "id": "gen_s24_038",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 5,
+ "rules": [
+  "Y_FUTURE",
+  "X_LOVE",
+  "X_VIRUS"
+ ],
+ "roles": {
+  "C24": "CULTIST",
+  "C18": "TT",
+  "C12": "LOVERS",
+  "C17": "MAIN_LOVERS",
+  "C01": "MISLEADER"
+ },
+ "characters": [
+  "C01",
+  "C12",
+  "C15",
+  "C16",
+  "C17",
+  "C18",
+  "C24",
+  "C25",
+  "C29"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "RUMOR_SPREAD",
+   "culprit": "C16"
+  },
+  {
+   "day": 3,
+   "id": "RUMOR_SPREAD",
+   "culprit": "C17"
+  },
+  {
+   "day": 4,
+   "id": "BUTTERFLY",
+   "culprit": "C25"
+  },
+  {
+   "day": 5,
+   "id": "SPREAD",
+   "culprit": "C01"
+  }
+ ],
+ "use": "generated",
+ "appear": {
+  "C24": {
+   "day": 2
+  }
+ },
+ "territory": "SCH",
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 9,
+  "read_wins_vs_search": 1
+ }
+}

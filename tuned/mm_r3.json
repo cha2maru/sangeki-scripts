@@ -1,0 +1,22 @@
+{
+ "base": "searchL",
+ "params": {
+  "worst": 0.6073,
+  "stuck": 0.9385,
+  "force": 0.0,
+  "early": 2.2357,
+  "lam": 0.0287,
+  "urgency": 0.0,
+  "hold": 0.4673,
+  "bluff": 0.0,
+  "recall": 0.2415,
+  "margin": 0.0,
+  "gwx_eve": 1.3413,
+  "hide_culprit": 0.0,
+  "persist": 2.1169,
+  "cut_mm": 0.0351
+ },
+ "tune": 0.56,
+ "hold": 0.6666666666666666,
+ "source": "selfplay/runs/tune3_mm.jsonl"
+}

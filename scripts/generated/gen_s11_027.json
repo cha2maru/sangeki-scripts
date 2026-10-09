@@ -1,0 +1,62 @@
+{
+ "id": "gen_s11_027",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 5,
+ "rules": [
+  "Y_SEAL",
+  "X_FACTOR",
+  "X_LOVE"
+ ],
+ "roles": {
+  "C21": "KUROMAKU",
+  "C16": "CULTIST",
+  "C04": "FACTOR",
+  "C15": "LOVERS",
+  "C18": "MAIN_LOVERS"
+ },
+ "characters": [
+  "C04",
+  "C09",
+  "C15",
+  "C16",
+  "C18",
+  "C21",
+  "C24"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "BUTTERFLY",
+   "culprit": "C09"
+  },
+  {
+   "day": 3,
+   "id": "RUMOR_SPREAD",
+   "culprit": "C04"
+  },
+  {
+   "day": 4,
+   "id": "CORRUPT",
+   "culprit": "C18"
+  },
+  {
+   "day": 5,
+   "id": "HOSPITAL",
+   "culprit": "C16"
+  }
+ ],
+ "use": "generated",
+ "appear": {
+  "C24": {
+   "day": 3
+  }
+ },
+ "territory": "CIT",
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 3,
+  "read_wins_vs_search": 1
+ }
+}

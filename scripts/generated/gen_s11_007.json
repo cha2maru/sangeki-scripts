@@ -1,0 +1,68 @@
+{
+ "id": "gen_s11_007",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 4,
+ "days": 7,
+ "rules": [
+  "Y_CONTRACT",
+  "X_VIRUS",
+  "X_CIRCLE"
+ ],
+ "roles": {
+  "C04": "KEY",
+  "C23": "MISLEADER",
+  "C21": "FRIEND",
+  "C08": "FRIEND"
+ },
+ "characters": [
+  "C01",
+  "C04",
+  "C08",
+  "C09",
+  "C15",
+  "C21",
+  "C23",
+  "C24",
+  "C26",
+  "C27"
+ ],
+ "incidents": [
+  {
+   "day": 3,
+   "id": "HOSPITAL",
+   "culprit": "C24"
+  },
+  {
+   "day": 4,
+   "id": "SUICIDE",
+   "culprit": "C09"
+  },
+  {
+   "day": 5,
+   "id": "MISSING",
+   "culprit": "C21"
+  },
+  {
+   "day": 6,
+   "id": "SUICIDE",
+   "culprit": "C26"
+  },
+  {
+   "day": 7,
+   "id": "SUICIDE",
+   "culprit": "C27"
+  }
+ ],
+ "use": "generated",
+ "appear": {
+  "C24": {
+   "day": 3
+  }
+ },
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 6,
+  "read_wins_vs_search": 7
+ }
+}

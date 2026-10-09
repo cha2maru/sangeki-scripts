@@ -1,0 +1,20 @@
+{"kind": "pc_cards", "choice": [{"by": "A", "target": "C19", "card": "PAR-"}, {"by": "B", "target": "C10", "card": "INTX"}, {"by": "C", "target": "C17", "card": "GW2"}]}
+{"kind": "abilities", "choice": []}
+{"kind": "pc_cards", "choice": [{"by": "B", "target": "B:CIT", "card": "INTX"}, {"by": "C", "target": "C08", "card": "PAR-"}, {"by": "A", "target": "C10", "card": "GW1"}]}
+{"kind": "abilities", "choice": []}
+{"kind": "pc_cards", "choice": [{"by": "C", "target": "C10", "card": "INTX"}, {"by": "A", "target": "C05", "card": "GW1"}, {"by": "B", "target": "C07", "card": "GW2"}]}
+{"kind": "abilities", "choice": []}
+{"kind": "pc_cards", "choice": [{"by": "A", "target": "C10", "card": "INTX"}, {"by": "B", "target": "C07", "card": "GW1"}, {"by": "C", "target": "C05", "card": "GW1"}]}
+{"kind": "abilities", "choice": []}
+{"kind": "pc_cards", "choice": [{"by": "A", "target": "C10", "card": "INTX"}, {"by": "B", "target": "C07", "card": "GW2"}, {"by": "C", "target": "C17", "card": "GW2"}]}
+{"kind": "abilities", "choice": []}
+{"kind": "pc_cards", "choice": [{"by": "B", "target": "B:CIT", "card": "INTX"}, {"by": "C", "target": "C10", "card": "MVX"}, {"by": "A", "target": "C07", "card": "GW1"}]}
+{"kind": "abilities", "choice": [["C17", 0, {"target": "C08"}]]}
+{"kind": "pc_cards", "choice": [{"by": "C", "target": "B:CIT", "card": "INTX"}, {"by": "A", "target": "C10", "card": "MVX"}, {"by": "B", "target": "C07", "card": "GW1"}]}
+{"kind": "abilities", "choice": []}
+{"kind": "pc_cards", "choice": [{"by": "A", "target": "C08", "card": "PAR-"}, {"by": "B", "target": "C07", "card": "GW1"}, {"by": "C", "target": "C05", "card": "GW1"}]}
+{"kind": "abilities", "choice": [["C07", 0, {"declare": "X_THREAD"}]]}
+{"kind": "pc_cards", "choice": [{"by": "B", "target": "B:HOS", "card": "INTX"}, {"by": "C", "target": "C06", "card": "PAR-"}, {"by": "A", "target": "C05", "card": "GW1"}]}
+{"kind": "abilities", "choice": []}
+{"kind": "pc_cards", "choice": [{"by": "C", "target": "C12", "card": "GW1"}, {"by": "A", "target": "C05", "card": "GW1"}, {"by": "B", "target": "C10", "card": "MVX"}]}
+{"kind": "abilities", "choice": [["C17", 0, {"target": "C19"}]]}

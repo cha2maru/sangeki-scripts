@@ -1,0 +1,59 @@
+{
+ "id": "gen_b31_014",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 6,
+ "rules": [
+  "Y_FUTURE",
+  "X_CIRCLE",
+  "X_RUMOR"
+ ],
+ "roles": {
+  "C30": "CULTIST",
+  "C09": "TT",
+  "C14": "FRIEND",
+  "C06": "FRIEND",
+  "C13": "MISLEADER"
+ },
+ "characters": [
+  "C03",
+  "C06",
+  "C08",
+  "C09",
+  "C10",
+  "C13",
+  "C14",
+  "C25",
+  "C26",
+  "C30"
+ ],
+ "incidents": [
+  {
+   "day": 3,
+   "id": "SPREAD",
+   "culprit": "C03"
+  },
+  {
+   "day": 4,
+   "id": "MURDER",
+   "culprit": "C10"
+  },
+  {
+   "day": 6,
+   "id": "MISSING",
+   "culprit": "C26"
+  }
+ ],
+ "use": "generated",
+ "appear": {
+  "C13": {
+   "loop": 2
+  }
+ },
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 12,
+  "read_wins_vs_search": 6
+ }
+}

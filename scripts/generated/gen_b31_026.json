@@ -1,0 +1,58 @@
+{
+ "id": "gen_b31_026",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 7,
+ "rules": [
+  "Y_SEAL",
+  "X_KILLER",
+  "X_FACTOR"
+ ],
+ "roles": {
+  "C18": "KUROMAKU",
+  "C27": "CULTIST",
+  "C24": "FRIEND",
+  "C19": "SK",
+  "C14": "FACTOR"
+ },
+ "characters": [
+  "C07",
+  "C08",
+  "C14",
+  "C15",
+  "C18",
+  "C19",
+  "C21",
+  "C24",
+  "C27"
+ ],
+ "incidents": [
+  {
+   "day": 3,
+   "id": "REMOTE",
+   "culprit": "C08"
+  },
+  {
+   "day": 4,
+   "id": "RUMOR_SPREAD",
+   "culprit": "C14"
+  },
+  {
+   "day": 7,
+   "id": "MURDER",
+   "culprit": "C27"
+  }
+ ],
+ "use": "generated",
+ "appear": {
+  "C24": {
+   "day": 3
+  }
+ },
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 11,
+  "read_wins_vs_search": 6
+ }
+}

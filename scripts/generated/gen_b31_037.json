@@ -1,0 +1,57 @@
+{
+ "id": "gen_b31_037",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 5,
+ "rules": [
+  "Y_SEAL",
+  "X_LOVE",
+  "X_THREAD"
+ ],
+ "roles": {
+  "C03": "KUROMAKU",
+  "C08": "CULTIST",
+  "C22": "LOVERS",
+  "C23": "MAIN_LOVERS"
+ },
+ "characters": [
+  "C03",
+  "C08",
+  "C12",
+  "C14",
+  "C20",
+  "C22",
+  "C23",
+  "C27",
+  "C29"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "HOSPITAL",
+   "culprit": "C23"
+  },
+  {
+   "day": 3,
+   "id": "CORRUPT",
+   "culprit": "C29"
+  },
+  {
+   "day": 4,
+   "id": "SUICIDE",
+   "culprit": "C27"
+  },
+  {
+   "day": 5,
+   "id": "MISSING",
+   "culprit": "C12"
+  }
+ ],
+ "use": "generated",
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 12,
+  "read_wins_vs_search": 8
+ }
+}

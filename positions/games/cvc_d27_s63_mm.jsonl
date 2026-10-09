@@ -1,0 +1,27 @@
+{"kind": "loop_setup", "choice": {"scholar": "int"}}
+{"kind": "mm_cards", "choice": [{"target": "C10", "card": "INT2"}, {"target": "C12", "card": "PAR+"}, {"target": "C19", "card": "PAR+"}]}
+{"kind": "mm_cards", "choice": [{"target": "C07", "card": "GWX"}, {"target": "B:SCH", "card": "INT1"}, {"target": "C12", "card": "PAR-"}]}
+{"kind": "mm_cards", "choice": [{"target": "C07", "card": "GWX"}, {"target": "B:SCH", "card": "INT1"}, {"target": "C05", "card": "PARX"}]}
+{"kind": "mm_cards", "choice": [{"target": "C07", "card": "GWX"}, {"target": "B:SCH", "card": "INT1"}, {"target": "C05", "card": "PARX"}]}
+{"kind": "mm_cards", "choice": [{"target": "C07", "card": "GWX"}, {"target": "B:SCH", "card": "INT1"}, {"target": "C05", "card": "PARX"}]}
+{"kind": "mm_cards", "choice": [{"target": "C07", "card": "GWX"}, {"target": "B:SCH", "card": "INT1"}, {"target": "C05", "card": "PARX"}]}
+{"kind": "loop_setup", "choice": {"scholar": "int"}}
+{"kind": "mm_cards", "choice": [{"target": "C10", "card": "INT1"}, {"target": "B:CIT", "card": "INT2"}, {"target": "C12", "card": "PAR+"}]}
+{"kind": "mm_cards", "choice": [{"target": "C10", "card": "INT1"}, {"target": "C07", "card": "GWX"}, {"target": "C12", "card": "PAR+"}]}
+{"kind": "mm_cards", "choice": [{"target": "C08", "card": "PAR+"}, {"target": "C06", "card": "PAR+"}, {"target": "C17", "card": "GWX"}]}
+{"kind": "mm_cards", "choice": [{"target": "C05", "card": "GWX"}, {"target": "C06", "card": "PAR+"}, {"target": "C17", "card": "PAR+"}]}
+{"kind": "mm_cards", "choice": [{"target": "C05", "card": "GWX"}, {"target": "C06", "card": "PAR+"}, {"target": "C10", "card": "INT1"}]}
+{"kind": "refuse", "choice": false}
+{"kind": "refuse", "choice": false}
+{"kind": "incident", "choice": {}}
+{"kind": "loop_setup", "choice": {"scholar": "int"}}
+{"kind": "mm_cards", "choice": [{"target": "B:CIT", "card": "INT2"}, {"target": "C10", "card": "INT1"}, {"target": "C12", "card": "PAR+"}]}
+{"kind": "mm_cards", "choice": [{"target": "C12", "card": "PAR+"}, {"target": "C06", "card": "PAR+"}, {"target": "C10", "card": "INT1"}]}
+{"kind": "refuse", "choice": false}
+{"kind": "mm_cards", "choice": [{"target": "C08", "card": "PAR+"}, {"target": "C17", "card": "PAR+"}, {"target": "C10", "card": "INT1"}]}
+{"kind": "mm_cards", "choice": [{"target": "C08", "card": "PAR+"}, {"target": "C17", "card": "PAR+"}, {"target": "B:HOS", "card": "INT1"}]}
+{"kind": "mm_cards", "choice": [{"target": "C17", "card": "PAR+"}, {"target": "C10", "card": "INT1"}, {"target": "B:HOS", "card": "PARX"}]}
+{"kind": "refuse", "choice": false}
+{"kind": "mm_cards", "choice": [{"target": "C17", "card": "PAR+"}, {"target": "C10", "card": "INT1"}, {"target": "B:HOS", "card": "PARX"}]}
+{"kind": "refuse", "choice": false}
+{"kind": "refuse", "choice": false}

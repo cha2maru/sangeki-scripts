@@ -1,0 +1,55 @@
+{
+ "id": "gen_s24_018",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 4,
+ "days": 6,
+ "rules": [
+  "Y_CONTRACT",
+  "X_FACTOR",
+  "X_KILLER"
+ ],
+ "roles": {
+  "C04": "KEY",
+  "C18": "FACTOR",
+  "C01": "FRIEND",
+  "C22": "SK"
+ },
+ "characters": [
+  "C01",
+  "C04",
+  "C06",
+  "C12",
+  "C18",
+  "C22",
+  "C29"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "SUICIDE",
+   "culprit": "C01"
+  },
+  {
+   "day": 4,
+   "id": "SUICIDE",
+   "culprit": "C04"
+  },
+  {
+   "day": 5,
+   "id": "HOSPITAL",
+   "culprit": "C12"
+  },
+  {
+   "day": 6,
+   "id": "MISSING",
+   "culprit": "C22"
+  }
+ ],
+ "use": "generated",
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 7,
+  "read_wins_vs_search": 5
+ }
+}

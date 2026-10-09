@@ -1,0 +1,70 @@
+{
+ "id": "gen_b31_013",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 7,
+ "rules": [
+  "Y_MURDER",
+  "X_LOVE",
+  "X_THREAD"
+ ],
+ "roles": {
+  "C18": "KEY",
+  "C14": "KILLER",
+  "C30": "KUROMAKU",
+  "C09": "LOVERS",
+  "C34": "MAIN_LOVERS"
+ },
+ "characters": [
+  "C06",
+  "C08",
+  "C09",
+  "C13",
+  "C14",
+  "C18",
+  "C24",
+  "C30",
+  "C31",
+  "C34"
+ ],
+ "incidents": [
+  {
+   "day": 3,
+   "id": "BUTTERFLY",
+   "culprit": "C31"
+  },
+  {
+   "day": 4,
+   "id": "REMOTE",
+   "culprit": "C06"
+  },
+  {
+   "day": 5,
+   "id": "BUTTERFLY",
+   "culprit": "C34"
+  },
+  {
+   "day": 6,
+   "id": "RUMOR_SPREAD",
+   "culprit": "C13"
+  }
+ ],
+ "use": "generated",
+ "appear": {
+  "C13": {
+   "loop": 2
+  },
+  "C24": {
+   "day": 2
+  }
+ },
+ "start": {
+  "C34": "SCH"
+ },
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 9,
+  "read_wins_vs_search": 4
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "id": "gen_s21_002",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 4,
+ "days": 7,
+ "rules": [
+  "Y_MURDER",
+  "X_FACTOR",
+  "X_CIRCLE"
+ ],
+ "roles": {
+  "C16": "KEY",
+  "C27": "KILLER",
+  "C21": "KUROMAKU",
+  "C25": "FACTOR",
+  "C17": "FRIEND",
+  "C20": "FRIEND",
+  "C19": "MISLEADER"
+ },
+ "characters": [
+  "C08",
+  "C16",
+  "C17",
+  "C19",
+  "C20",
+  "C21",
+  "C25",
+  "C27"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "CORRUPT",
+   "culprit": "C17"
+  },
+  {
+   "day": 3,
+   "id": "MURDER",
+   "culprit": "C25"
+  },
+  {
+   "day": 6,
+   "id": "BUTTERFLY",
+   "culprit": "C19"
+  },
+  {
+   "day": 7,
+   "id": "SUICIDE",
+   "culprit": "C27"
+  }
+ ],
+ "use": "generated",
+ "territory": "SCH",
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 8,
+  "read_wins_vs_search": 7
+ }
+}

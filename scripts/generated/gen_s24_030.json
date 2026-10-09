@@ -1,0 +1,66 @@
+{
+ "id": "gen_s24_030",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 6,
+ "rules": [
+  "Y_CONTRACT",
+  "X_RUMOR",
+  "X_VIRUS"
+ ],
+ "roles": {
+  "C24": "KEY",
+  "C13": "MISLEADER"
+ },
+ "characters": [
+  "C01",
+  "C07",
+  "C13",
+  "C20",
+  "C21",
+  "C24",
+  "C25",
+  "C30",
+  "C34"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "SUICIDE",
+   "culprit": "C34"
+  },
+  {
+   "day": 3,
+   "id": "MURDER",
+   "culprit": "C24"
+  },
+  {
+   "day": 4,
+   "id": "HOSPITAL",
+   "culprit": "C13"
+  },
+  {
+   "day": 5,
+   "id": "SUICIDE",
+   "culprit": "C20"
+  }
+ ],
+ "use": "generated",
+ "appear": {
+  "C13": {
+   "loop": 2
+  },
+  "C24": {
+   "day": 2
+  }
+ },
+ "start": {
+  "C34": "CIT"
+ },
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 11,
+  "read_wins_vs_search": 7
+ }
+}

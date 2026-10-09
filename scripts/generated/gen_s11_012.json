@@ -1,0 +1,54 @@
+{
+ "id": "gen_s11_012",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 7,
+ "rules": [
+  "Y_BOMB",
+  "X_KILLER",
+  "X_VIRUS"
+ ],
+ "roles": {
+  "C01": "WITCH",
+  "C26": "FRIEND",
+  "C19": "SK",
+  "C12": "MISLEADER"
+ },
+ "characters": [
+  "C01",
+  "C04",
+  "C07",
+  "C10",
+  "C12",
+  "C16",
+  "C19",
+  "C21",
+  "C26",
+  "C30"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "MISSING",
+   "culprit": "C04"
+  },
+  {
+   "day": 3,
+   "id": "MISSING",
+   "culprit": "C26"
+  },
+  {
+   "day": 5,
+   "id": "HOSPITAL",
+   "culprit": "C21"
+  }
+ ],
+ "use": "generated",
+ "territory": "SHR",
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 4,
+  "read_wins_vs_search": 0
+ }
+}

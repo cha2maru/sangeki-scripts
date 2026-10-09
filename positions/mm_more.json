@@ -1,0 +1,646 @@
+[
+ {
+  "id": "mm16c-l1d2-hide",
+  "script": "designed/d16",
+  "seed": 64,
+  "mm": "positions/games/cvc_d16_s64_mm.jsonl",
+  "pc": "positions/games/cvc_d16_s64_pc.jsonl",
+  "at": {
+   "loop": 1,
+   "day": 2,
+   "kind": "mm_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "GWX",
+     "target": "C05"
+    }
+   ]
+  ],
+  "bad": [
+   [
+    {
+     "card": "PAR+",
+     "target": "C03"
+    }
+   ],
+   [
+    {
+     "card": "PAR+",
+     "target": "C32"
+    }
+   ]
+  ],
+  "note": "ル構-02・行-12・J34。1日目の都市への暗躍+2 が通り、都市は暗躍2（時限爆弾。ボードの暗躍を除く手は無い）でループ1の勝ちは確定。刑事は友好2で、主人公は前日に友好+2 を置いた。また友好+2 が通れば友好4 で刑事[4]（事件の犯人を知る）。友好禁止で止める。お嬢様（臨界1）・アルバイト（臨界1）への不安+1 は起こす必要のない事件を起こし、従者の身代わり（フレンド）や犯人を見せるだけ（事-02）。記録の Claude は刑事に友好禁止",
+  "split": "tune"
+ },
+ {
+  "id": "mm16c-l2d3-hide",
+  "script": "designed/d16",
+  "seed": 64,
+  "mm": "positions/games/cvc_d16_s64_mm.jsonl",
+  "pc": "positions/games/cvc_d16_s64_pc.jsonl",
+  "at": {
+   "loop": 2,
+   "day": 3,
+   "kind": "mm_cards"
+  },
+  "bad": [
+   [
+    {
+     "card": "PAR+",
+     "target": "C32"
+    }
+   ],
+   [
+    {
+     "card": "PAR-",
+     "target": "C32"
+    }
+   ]
+  ],
+  "note": "ル構-02・事-02・実-09。2日目の自殺の身代わりで従者（フレンド）が死に、ループ終了時の負けが確定。3日目の殺人事件の犯人アルバイト（臨界1・不安0）に不安+1 を置けば事件が起きて都市の誰かが死に、犯人の部屋を教えるだけ。逆に不安0 のアルバイトへの不安−1 は「起こしたくない事件の犯人」を教える（実-09）。記録の Claude はどちらも置かず、刑事に不安−1（無害）",
+  "split": "hold"
+ },
+ {
+  "id": "mm16c-l2d4-teacher",
+  "script": "designed/d16",
+  "seed": 64,
+  "mm": "positions/games/cvc_d16_s64_mm.jsonl",
+  "pc": "positions/games/cvc_d16_s64_pc.jsonl",
+  "at": {
+   "loop": 2,
+   "day": 4,
+   "kind": "mm_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "GWX",
+     "target": "C23"
+    }
+   ]
+  ],
+  "note": "行-12・J35・ル構-02。ループ2は従者の死で確定済み。教師は友好3で、同じ学校にお嬢様（学生）がいる。主人公が友好を1つでも置けば教師[4]でお嬢様の役職（ファクター）が割れる。d16 の指針「ファクターは一度も表に出さない」「教師[4]に友好禁止」。記録の Claude は教師に友好禁止",
+  "split": "tune"
+ },
+ {
+  "id": "mm16c-l3d1-fork",
+  "script": "designed/d16",
+  "seed": 64,
+  "mm": "positions/games/cvc_d16_s64_mm.jsonl",
+  "pc": "positions/games/cvc_d16_s64_pc.jsonl",
+  "at": {
+   "loop": 3,
+   "day": 1,
+   "kind": "mm_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "INT2",
+     "target": "C34"
+    },
+    {
+     "card": "INT1",
+     "target": "B:CIT"
+    }
+   ]
+  ],
+  "note": "行-01 暗躍の二択・ル構-03(a)。最終ループ。フレンド（従者）と爆弾（都市）が割れ、主人公は都市に毎日暗躍禁止を置く。暗躍+2 を従者（5日目の遠隔殺人の標的）、暗躍+1 を割れた都市（おとり）へ。暗躍禁止は1日1枚しか効かないので、どちらかが通る。記録の Claude はこの組（主人公は都市を止め、従者が暗躍2）",
+  "split": "hold"
+ },
+ {
+  "id": "mm16c-l3d4-remote",
+  "script": "designed/d16",
+  "seed": 64,
+  "mm": "positions/games/cvc_d16_s64_mm.jsonl",
+  "pc": "positions/games/cvc_d16_s64_pc.jsonl",
+  "at": {
+   "loop": 3,
+   "day": 4,
+   "kind": "mm_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "PAR+",
+     "target": "C12"
+    }
+   ]
+  ],
+  "note": "行-06 不安+1 の消耗戦・事-11。最終ループ。従者は暗躍2で病院（異世界人は病院に入れないので[5]の蘇生は届かない）、刑事は殺人事件で死亡済み。5日目の遠隔殺人の犯人の異世界人は不安3（臨界2）。主人公は不安−1 を3人とも残しており、1日1枚ずつ2日で不安1 まで下げられる。今日不安+1 を置けば5日目まで臨界を保てる。記録の Claude は4日目・5日目に不安+1 で、5日目に従者を殺した",
+  "split": "tune"
+ },
+ {
+  "id": "mm16c-l3d5-copycat",
+  "script": "designed/d16",
+  "seed": 64,
+  "mm": "positions/games/cvc_d16_s64_mm.jsonl",
+  "pc": "positions/games/cvc_d16_s64_pc.jsonl",
+  "at": {
+   "loop": 3,
+   "day": 5,
+   "kind": "mm_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "GWX",
+     "target": "C28"
+    }
+   ]
+  ],
+  "bad": [
+   [
+    {
+     "card": "PAR-",
+     "target": "C12"
+    }
+   ]
+  ],
+  "note": "行-12・ル構-02・ル構-10。最終ループ5日目。異世界人は不安4 で、主人公が不安−1 を置いても5日目の遠隔殺人で暗躍2の従者が死ぬ（守り手の刑事は死亡、蘇生は病院に届かない）→勝ちは確定。コピーキャットは友好2で、昨日から主人公が友好を積んでいる。友好3 でコピーキャット[3]（拒否されない）が同じ役職＝教師のミスリーダーを教え、最後の戦いの手がかりになる。友好禁止で止める。異世界人への不安−1 は止める必要がないうえ犯人を教える（実-09）",
+  "split": "tune"
+ },
+ {
+  "id": "mm16g-l1d5-noremote",
+  "script": "designed/d16",
+  "seed": 65,
+  "pc": "positions/games/claude_pc_d16_guide_s65.jsonl",
+  "mm_opp": "searchguide",
+  "at": {
+   "loop": 1,
+   "day": 5,
+   "kind": "mm_cards"
+  },
+  "bad": [
+   [
+    {
+     "card": "PAR+",
+     "target": "C12"
+    }
+   ]
+  ],
+  "note": "事-02 起こすつもりのない事件は起こさない。今日5日目の遠隔殺人は暗躍2以上の人物が1人もいないので、起こしても誰も死なない。異世界人（不安1・臨界2）に不安+1 を置けば事件が「発生」して犯人の候補と遠隔殺人の空振りを教えるだけ。記録の自動の脚本家はこれを置き、翌日の刑事[4]と合わせて犯人が割れた",
+  "split": "tune",
+  "mm_rec": "positions/games/frozen_claude_pc_d16_guide_s65_mm_searchguide_s65.pkl"
+ },
+ {
+  "id": "mm16g-l1d6-detective",
+  "script": "designed/d16",
+  "seed": 65,
+  "pc": "positions/games/claude_pc_d16_guide_s65.jsonl",
+  "mm_opp": "searchguide",
+  "at": {
+   "loop": 1,
+   "day": 6,
+   "kind": "mm_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "GWX",
+     "target": "C05"
+    }
+   ]
+  ],
+  "note": "行-12・J34。ループ1最終日。勝ち筋は都市の暗躍（主人公が毎日暗躍禁止）しか残っていない。刑事は友好3で、主人公は前日に友好+2 を置いている。友好4 で刑事[4]（事件の犯人を知る）。記録の自動の脚本家は従者に友好禁止（意味なし）を置き、刑事[4]で遠隔殺人の犯人（異世界人）が割れた",
+  "split": "hold",
+  "mm_rec": "positions/games/frozen_claude_pc_d16_guide_s65_mm_searchguide_s65.pkl"
+ },
+ {
+  "id": "mm16gS-l2d1-fork",
+  "script": "designed/d16",
+  "seed": 66,
+  "pc": "positions/games/claude_pc_d16_guideS_s66.jsonl",
+  "mm_opp": "searchguideS",
+  "at": {
+   "loop": 2,
+   "day": 1,
+   "kind": "mm_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "INT2",
+     "target": "C34"
+    }
+   ]
+  ],
+  "note": "行-01・ル構-03(a)・d16 の指針（ループ2〜3: 従者に暗躍+2・都市に暗躍+1）。ループ1でフレンド（従者）とファクター（お嬢様）が割れ、主人公はループ1で毎日都市に暗躍禁止を置いた。自殺の身代わりの筋は塞がれやすいので、5日目の遠隔殺人の標的を作る。暗躍禁止は1枚しか効かない。記録の自動の脚本家は都市へ暗躍+1・アルバイト・お嬢様へ不安+1 で、暗躍+2 を使わなかった",
+  "split": "hold",
+  "mm_rec": "positions/games/frozen_claude_pc_d16_guideS_s66_mm_searchguideS_s66.pkl"
+ },
+ {
+  "id": "mm16gS-l2d5-copycat",
+  "script": "designed/d16",
+  "seed": 66,
+  "pc": "positions/games/claude_pc_d16_guideS_s66.jsonl",
+  "mm_opp": "searchguideS",
+  "at": {
+   "loop": 2,
+   "day": 5,
+   "kind": "mm_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "GWX",
+     "target": "C28"
+    }
+   ]
+  ],
+  "note": "行-12・ル構-02（負けが確定したループも隠す）。ループ2の5日目。遠隔殺人の犯人は不安0、従者の暗躍は1、都市は0で暗躍+1 は1枚 → このループの勝ち筋は残っていない。コピーキャットは友好2、主人公が2日続けて友好を置いている。友好3 でコピーキャット[3]（第2ループ以降、拒否されない）がミスリーダー2人を教える。記録の自動の脚本家は止めず、教師＝ミスリーダーが割れた",
+  "split": "tune",
+  "mm_rec": "positions/games/frozen_claude_pc_d16_guideS_s66_mm_searchguideS_s66.pkl"
+ },
+ {
+  "id": "mm16S8-l1d3-murder",
+  "script": "designed/d16",
+  "seed": 67,
+  "pc": "positions/games/claude_pc_d16_S8_s67.jsonl",
+  "mm_opp": "searchS8",
+  "at": {
+   "loop": 1,
+   "day": 3,
+   "kind": "incident",
+   "incident": "MURDER"
+  },
+  "good": [
+   [
+    {
+     "target": "C12"
+    }
+   ]
+  ],
+  "bad": [
+   [
+    {
+     "target": "C20"
+    }
+   ]
+  ],
+  "note": "ル構-02・ル構-10・d16 の指針「幻想＝フレンドを隠す」。2日目の自殺の身代わりで従者が死に、ループ1は確定。殺人事件の対象は神社の異世界人か幻想。幻想（2人目のフレンド）を殺すとループ終了時にフレンドの正体が公開される（FAQ Ru02）。異世界人なら新しい役職は出ない。殺人事件は対象がいれば必ず1人死ぬ（incident-effects.md）",
+  "split": "tune",
+  "mm_rec": "positions/games/frozen_claude_pc_d16_S8_s67_mm_searchS8_s67.pkl"
+ },
+ {
+  "id": "mm16S8-l1d4-teacher",
+  "script": "designed/d16",
+  "seed": 67,
+  "pc": "positions/games/claude_pc_d16_S8_s67.jsonl",
+  "mm_opp": "searchS8",
+  "at": {
+   "loop": 1,
+   "day": 4,
+   "kind": "mm_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "GWX",
+     "target": "C23"
+    }
+   ]
+  ],
+  "note": "行-12・J35・ル構-02。従者の死でループ1は確定。教師は友好3。主人公は1・2日目に友好を置いた。友好4 の教師[4]で同じエリアの学生（お嬢様）の役職＝ファクターが割れる（主人公の移動でお嬢様が学校へ戻りうる）。記録の自動の脚本家は止めず、ファクターが割れた",
+  "split": "hold",
+  "mm_rec": "positions/games/frozen_claude_pc_d16_S8_s67_mm_searchS8_s67.pkl"
+ },
+ {
+  "id": "mm16S8-l2d3-remote",
+  "script": "designed/d16",
+  "seed": 67,
+  "pc": "positions/games/claude_pc_d16_S8_s67.jsonl",
+  "mm_opp": "searchS8",
+  "at": {
+   "loop": 2,
+   "day": 3,
+   "kind": "mm_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "PAR+",
+     "target": "C12"
+    }
+   ]
+  ],
+  "note": "行-06 不安+1 の消耗戦・事-11・実-06。ループ2の3日目。従者は暗躍2（遠隔殺人の標的）、5日目の遠隔殺人の犯人の異世界人は不安0（臨界2）。主人公の不安−1 は残り1枚。3日目・4日目・5日目と不安+1 を置けば、1枚消されても不安2 で遠隔殺人が起きる → 今日から置く必要がある。都市は毎日暗躍禁止で止められている（乗り換える）。記録の自動の脚本家は都市ボードに不安+1（効果なし）を置いた",
+  "split": "tune",
+  "mm_rec": "positions/games/frozen_claude_pc_d16_S8_s67_mm_searchS8_s67.pkl"
+ },
+ {
+  "id": "mm16S8-l2d5-bomb",
+  "script": "designed/d16",
+  "seed": 67,
+  "pc": "positions/games/claude_pc_d16_S8_s67.jsonl",
+  "mm_opp": "searchS8",
+  "at": {
+   "loop": 2,
+   "day": 5,
+   "kind": "mm_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "INT1",
+     "target": "B:CIT"
+    }
+   ]
+  ],
+  "note": "ル-01・ル構-02。都市は4日目の行方不明で暗躍1。暗躍+1 を都市へ置けば暗躍2 で時限爆弾（ボードの暗躍を除く手は無い）、ループ終了時の負けが確定する。遠隔殺人は主人公の不安−1 で止まりうる。記録の自動の脚本家は神社に暗躍+1 を置き（今日の主人公は都市に暗躍禁止を置かなかった）、勝ちを逃した",
+  "split": "tune",
+  "mm_rec": "positions/games/frozen_claude_pc_d16_S8_s67_mm_searchS8_s67.pkl"
+ },
+ {
+  "id": "mm27c-l2d4-factor",
+  "script": "designed/d27",
+  "seed": 63,
+  "mm": "positions/games/cvc_d27_s63_mm.jsonl",
+  "pc": "positions/games/cvc_d27_s63_pc.jsonl",
+  "at": {
+   "loop": 2,
+   "day": 4,
+   "kind": "mm_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "PAR+",
+     "target": "C06"
+    }
+   ]
+  ],
+  "note": "行-06 消耗戦・フ-04・ループの途中で終わる負け筋。都市は暗躍2で、サラリーマン（ファクター、臨界2・不安1）はキーパーソンの能力を持つ。5日目の自殺で死ねば即座に負け（ループの途中で終わり、主人公は残りの日の情報を取れない）。不安−1 が残っているのは1人だけ。今日不安+1 を置いて最後の不安−1 を使わせれば、明日の不安+1 が通る。記録の Claude はこの手で5日目に勝った",
+  "split": "tune"
+ },
+ {
+  "id": "mm27c-l3d4-murder",
+  "script": "designed/d27",
+  "seed": 63,
+  "mm": "positions/games/cvc_d27_s63_mm.jsonl",
+  "pc": "positions/games/cvc_d27_s63_pc.jsonl",
+  "at": {
+   "loop": 3,
+   "day": 4,
+   "kind": "mm_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "PAR+",
+     "target": "C08"
+    }
+   ]
+  ],
+  "note": "事-08 殺人事件で要を消す・フ-04・ループの途中で終わる負け筋。都市は暗躍2でサラリーマン（ファクター）がキーパーソンの能力を持つ。主人公が医者（殺人事件の犯人、臨界2・不安1）を都市へ動かした。不安+1 で4日目の殺人事件が起き、サラリーマンを殺せば即座に負け。今日の脅威はこれだけなので必ず置く。記録の Claude は置いたが不安−1 で止められた",
+  "split": "hold"
+ },
+ {
+  "id": "mm27l-l1d2-salary",
+  "script": "designed/d27",
+  "seed": 51,
+  "mm": "positions/games/claude_mm_d27_look_s51.jsonl",
+  "pc_opp": "readlook",
+  "at": {
+   "loop": 1,
+   "day": 2,
+   "kind": "mm_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "GWX",
+     "target": "C06"
+    }
+   ]
+  ],
+  "bad": [
+   [
+    {
+     "card": "PAR+",
+     "target": "C12"
+    }
+   ]
+  ],
+  "note": "ル構-02・ル構-09・行-12・J36。1日目の暗躍+2 で委員長が暗躍2、契約でループ1は確定（暗躍を除く手は無い）。サラリーマンは友好2（主人公が1日目に友好+2）。友好3 のサラリーマン[3]で役職か拒否（友好無視）が出て、ファクターが割れる。d27 の指針「ファクターは最後の戦いで最も外れやすい。サラリーマンへの友好には友好禁止」。異世界人への不安+1 は不安拡大を起こして情報を出すだけ。記録の Claude は友好禁止",
+  "split": "tune",
+  "pc_rec": "positions/games/frozen_claude_mm_d27_look_s51_pc_readlook_s51.pkl"
+ },
+ {
+  "id": "mm27d-l2d2-spread",
+  "script": "designed/d27",
+  "seed": 51,
+  "mm": "positions/games/claude_mm_d27_defplan3_s51.jsonl",
+  "pc_opp": "readdefplan",
+  "at": {
+   "loop": 2,
+   "day": 2,
+   "kind": "mm_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "PAR+",
+     "target": "C12"
+    },
+    {
+     "card": "PAR+",
+     "target": "C19"
+    }
+   ],
+   [
+    {
+     "card": "PAR+",
+     "target": "C12"
+    },
+    {
+     "card": "INT2",
+     "target": "C10"
+    }
+   ]
+  ],
+  "note": "事-05 補給の事件で押す・実-01・フ-04。異世界人（不安拡大の犯人、臨界2）は不安1。不安+1 で今日の不安拡大が起き、不安2 を学者（メインラバーズ、暗躍1・不安1）へ置けばターン終了フェイズで主人公の死（ループの途中で終わる）。止め手の違う脅威（委員長への暗躍+2、学者への不安+1）を並べて止め手を割らせる。学者への不安+1 は明日の仕上げの準備も兼ねる。記録の Claude は3枚とも置き、翌日に勝った",
+  "split": "tune",
+  "pc_rec": "positions/games/frozen_claude_mm_d27_defplan3_s51_pc_readdefplan_s51.pkl"
+ },
+ {
+  "id": "mm27d-l2d3-ml",
+  "script": "designed/d27",
+  "seed": 51,
+  "mm": "positions/games/claude_mm_d27_defplan3_s51.jsonl",
+  "pc_opp": "readdefplan",
+  "at": {
+   "loop": 2,
+   "day": 3,
+   "kind": "mm_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "PAR+",
+     "target": "C19"
+    }
+   ]
+  ],
+  "note": "J12・フ-04・ループの途中で終わる負け筋。学者（メインラバーズ）は暗躍1・不安2（臨界2）。不安+1 で不安3 になればターン終了フェイズに主人公の死。主人公の不安−1 は2人に残るが、医者・委員長への札で止め手を散らす（実-01）。記録の Claude はこれで勝った（主人公は空のナースに不安−1）",
+  "split": "tune",
+  "pc_rec": "positions/games/frozen_claude_mm_d27_defplan3_s51_pc_readdefplan_s51.pkl"
+ },
+ {
+  "id": "mm27d-l5d2-spread",
+  "script": "designed/d27",
+  "seed": 51,
+  "mm": "positions/games/claude_mm_d27_defplan3_s51.jsonl",
+  "pc_opp": "readdefplan",
+  "at": {
+   "loop": 5,
+   "day": 2,
+   "kind": "incident",
+   "incident": "SPREAD"
+  },
+  "good": [
+   [
+    {
+     "par_target": "C19"
+    }
+   ]
+  ],
+  "note": "事-06・ル構-08・ループの途中で終わる負け筋。最終ループ。学者（メインラバーズ、暗躍1）は今日の不安+1 で不安1。不安拡大の不安2 を学者へ置けば不安3 でターン終了フェイズに主人公の死（今日で終わる）。暗躍1 は委員長へ（契約の保険）。記録の Claude はこの置き方で勝った",
+  "split": "hold",
+  "pc_rec": "positions/games/frozen_claude_mm_d27_defplan3_s51_pc_readdefplan_s51.pkl"
+ },
+ {
+  "id": "mm27g-l1d3-info",
+  "script": "designed/d27",
+  "seed": 62,
+  "pc": "positions/games/claude_pc_d27_guide2_s62.jsonl",
+  "mm_opp": "searchguide",
+  "at": {
+   "loop": 1,
+   "day": 3,
+   "kind": "mm_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "GWX",
+     "target": "C07"
+    }
+   ]
+  ],
+  "note": "ル構-02・行-12・J35。1日目の委員長への暗躍+2 が通り、契約でループ1は確定。情報屋は友好4で、主人公は毎日友好を置いている。友好5 の情報屋[5]でルールX（恋愛風景）が1つ割れる。記録の自動の脚本家は病院ボードへ不安+1（効果なし）などを置き、恋愛風景が割れた",
+  "split": "tune",
+  "mm_rec": "positions/games/frozen_claude_pc_d27_guide2_s62_mm_searchguide_s62.pkl"
+ },
+ {
+  "id": "mm27g-l2d4-murder",
+  "script": "designed/d27",
+  "seed": 62,
+  "pc": "positions/games/claude_pc_d27_guide2_s62.jsonl",
+  "mm_opp": "searchguide",
+  "at": {
+   "loop": 2,
+   "day": 4,
+   "kind": "mm_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "PAR+",
+     "target": "C08"
+    },
+    {
+     "card": "GWX",
+     "target": "C07"
+    }
+   ]
+  ],
+  "note": "事-08・フ-04・行-12。医者（殺人事件の犯人、臨界2）は不安1 で病院にいる。不安+1 で4日目の殺人事件が起き、ナース（ラバーズ）を殺せば学者（メインラバーズ、暗躍1）に不安6 でターン終了フェイズに主人公の死。学者への不安+1 は今日は届かず、都市への暗躍+1 も1枚では都市2に届かない。残りの札は、友好4 の情報屋（主人公が毎日友好、友好5 でルールXが割れる）に友好禁止。記録の自動の脚本家は止めず、不定因子χが割れた",
+  "split": "tune",
+  "mm_rec": "positions/games/frozen_claude_pc_d27_guide2_s62_mm_searchguide_s62.pkl"
+ },
+ {
+  "id": "mm27g-l2d6-salary",
+  "script": "designed/d27",
+  "seed": 62,
+  "pc": "positions/games/claude_pc_d27_guide2_s62.jsonl",
+  "mm_opp": "searchguide",
+  "at": {
+   "loop": 2,
+   "day": 6,
+   "kind": "mm_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "GWX",
+     "target": "C06"
+    }
+   ]
+  ],
+  "note": "ル構-09 拒否の場面を作らせない・ル構-02。ループ2最終日。委員長は暗躍0、学者はナース[2]で毎日不安を消され、ナースは不安0 → 勝ち筋は残っていない。サラリーマンは友好2で、主人公は友好を積んでいる。友好3 のサラリーマン[3]を宣言されると、ファクター（友好無視）は拒否するか役職を明かすかになる。記録の自動の脚本家は止めず、拒否でファクターの候補が割れた",
+  "split": "hold",
+  "mm_rec": "positions/games/frozen_claude_pc_d27_guide2_s62_mm_searchguide_s62.pkl"
+ },
+ {
+  "id": "mm27s-l1d4-murder",
+  "script": "designed/d27",
+  "seed": 61,
+  "pc": "positions/games/claude_pc_d27_s61.jsonl",
+  "mm_opp": "search",
+  "at": {
+   "loop": 1,
+   "day": 4,
+   "kind": "incident",
+   "incident": "MURDER"
+  },
+  "good": [
+   [
+    {
+     "target": "C10"
+    }
+   ],
+   [
+    {
+     "target": "C17"
+    }
+   ]
+  ],
+  "bad": [
+   [
+    {
+     "target": "C19"
+    }
+   ]
+  ],
+  "note": "事-08・J13。殺人事件が起き、病院に委員長（キーパーソン、移動で運んだ）・学者（メインラバーズ、暗躍1）・ナース（ラバーズ）がいる。委員長を殺せばその場で負け、ナースを殺せば学者に不安6 でターン終了フェイズに主人公の死。学者を殺すと負け筋が消える（ナースに不安6 は主人公の死にならない）。記録の自動の脚本家は委員長を殺した",
+  "split": "tune",
+  "mm_rec": "positions/games/frozen_claude_pc_d27_s61_mm_search_s61.pkl"
+ },
+ {
+  "id": "mm27s-l2d5-nosuicide",
+  "script": "designed/d27",
+  "seed": 61,
+  "pc": "positions/games/claude_pc_d27_s61.jsonl",
+  "mm_opp": "search",
+  "at": {
+   "loop": 2,
+   "day": 5,
+   "kind": "mm_cards"
+  },
+  "bad": [
+   [
+    {
+     "card": "PAR+",
+     "target": "C06"
+    }
+   ]
+  ],
+  "note": "事-02・ル構-02。ループ2の5日目。委員長は暗躍0、学者は暗躍0（特性は不安）、ナースは不安0 → このループの勝ち筋は残っていない。都市は暗躍0 なので、サラリーマン（臨界2・不安1）の自殺は負けにならず、犯人とファクターの候補を見せるだけ。記録の自動の脚本家は不安+1 を置いた（主人公が不安−1 で消した）",
+  "split": "hold",
+  "mm_rec": "positions/games/frozen_claude_pc_d27_s61_mm_search_s61.pkl"
+ }
+]

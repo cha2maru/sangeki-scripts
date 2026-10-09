@@ -1,0 +1,54 @@
+{
+ "id": "gen_s23_028",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 5,
+ "rules": [
+  "Y_MURDER",
+  "X_FACTOR",
+  "X_VIRUS"
+ ],
+ "roles": {
+  "C21": "KEY",
+  "C25": "KILLER",
+  "C29": "KUROMAKU",
+  "C20": "FACTOR",
+  "C18": "MISLEADER"
+ },
+ "characters": [
+  "C07",
+  "C18",
+  "C20",
+  "C21",
+  "C25",
+  "C29",
+  "C34"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "MURDER",
+   "culprit": "C18"
+  },
+  {
+   "day": 4,
+   "id": "RUMOR_SPREAD",
+   "culprit": "C20"
+  },
+  {
+   "day": 5,
+   "id": "BUTTERFLY",
+   "culprit": "C21"
+  }
+ ],
+ "use": "generated",
+ "start": {
+  "C34": "CIT"
+ },
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 11,
+  "read_wins_vs_search": 6
+ }
+}

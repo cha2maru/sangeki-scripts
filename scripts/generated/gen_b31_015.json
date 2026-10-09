@@ -1,0 +1,62 @@
+{
+ "id": "gen_b31_015",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 6,
+ "rules": [
+  "Y_MURDER",
+  "X_LOVE",
+  "X_KILLER"
+ ],
+ "roles": {
+  "C19": "KEY",
+  "C29": "KILLER",
+  "C34": "KUROMAKU",
+  "C16": "LOVERS",
+  "C04": "MAIN_LOVERS",
+  "C23": "FRIEND",
+  "C13": "SK"
+ },
+ "characters": [
+  "C04",
+  "C13",
+  "C16",
+  "C19",
+  "C23",
+  "C29",
+  "C34"
+ ],
+ "incidents": [
+  {
+   "day": 3,
+   "id": "CORRUPT",
+   "culprit": "C16"
+  },
+  {
+   "day": 4,
+   "id": "HOSPITAL",
+   "culprit": "C13"
+  },
+  {
+   "day": 6,
+   "id": "SPREAD",
+   "culprit": "C04"
+  }
+ ],
+ "use": "generated",
+ "appear": {
+  "C13": {
+   "loop": 1
+  }
+ },
+ "territory": "SHR",
+ "start": {
+  "C34": "SCH"
+ },
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 8,
+  "read_wins_vs_search": 6
+ }
+}

@@ -1,0 +1,32 @@
+{"kind": "loop_setup", "choice": {"scholar": "int"}}
+{"kind": "mm_cards", "choice": [{"target": "C10", "card": "INT2"}, {"target": "C19", "card": "PAR+"}, {"target": "C31", "card": "INT1"}]}
+{"kind": "mm_cards", "choice": [{"target": "C06", "card": "GWX"}, {"target": "C07", "card": "INT1"}, {"target": "C05", "card": "PARX"}]}
+{"kind": "mm_cards", "choice": [{"target": "C06", "card": "GWX"}, {"target": "C07", "card": "INT1"}, {"target": "C05", "card": "PARX"}]}
+{"kind": "mm_cards", "choice": [{"target": "C06", "card": "GWX"}, {"target": "C07", "card": "INT1"}, {"target": "C05", "card": "PARX"}]}
+{"kind": "mm_cards", "choice": [{"target": "C06", "card": "GWX"}, {"target": "C07", "card": "INT1"}, {"target": "C05", "card": "PARX"}]}
+{"kind": "mm_cards", "choice": [{"target": "C06", "card": "GWX"}, {"target": "C07", "card": "INT1"}, {"target": "C05", "card": "PARX"}]}
+{"kind": "loop_setup", "choice": {"scholar": "int"}}
+{"kind": "mm_cards", "choice": [{"target": "C12", "card": "PAR+"}, {"target": "C10", "card": "INT1"}, {"target": "C19", "card": "PAR+"}]}
+{"kind": "mm_cards", "choice": [{"target": "C12", "card": "PAR+"}, {"target": "C10", "card": "INT2"}, {"target": "C19", "card": "PAR+"}]}
+{"kind": "mm_cards", "choice": [{"target": "C19", "card": "PAR+"}, {"target": "C08", "card": "PAR+"}, {"target": "C10", "card": "INT1"}]}
+{"kind": "killer", "choice": [{"char": "C19", "ability": "MAIN_LOVERS"}]}
+{"kind": "loop_setup", "choice": {"scholar": "int"}}
+{"kind": "mm_cards", "choice": [{"target": "C10", "card": "INT2"}, {"target": "C12", "card": "PAR+"}, {"target": "C08", "card": "PAR+"}]}
+{"kind": "mm_cards", "choice": [{"target": "C10", "card": "INT1"}, {"target": "C12", "card": "PAR+"}, {"target": "C08", "card": "PAR+"}]}
+{"kind": "incident", "choice": {"par_target": "C05", "int_target": "C10"}}
+{"kind": "mm_cards", "choice": [{"target": "C06", "card": "GWX"}, {"target": "C07", "card": "INT1"}, {"target": "C31", "card": "PARX"}]}
+{"kind": "mm_cards", "choice": [{"target": "C06", "card": "GWX"}, {"target": "C07", "card": "INT1"}, {"target": "C05", "card": "PARX"}]}
+{"kind": "refuse", "choice": false}
+{"kind": "mm_cards", "choice": [{"target": "C06", "card": "GWX"}, {"target": "C07", "card": "INT1"}, {"target": "C05", "card": "PARX"}]}
+{"kind": "mm_cards", "choice": [{"target": "C06", "card": "GWX"}, {"target": "C07", "card": "INT1"}, {"target": "C05", "card": "PARX"}]}
+{"kind": "loop_setup", "choice": {"scholar": "int"}}
+{"kind": "mm_cards", "choice": [{"target": "C10", "card": "INT2"}, {"target": "C12", "card": "PAR+"}, {"target": "C08", "card": "PAR+"}]}
+{"kind": "mm_cards", "choice": [{"target": "C10", "card": "INT1"}, {"target": "C12", "card": "PAR+"}, {"target": "C19", "card": "PAR+"}]}
+{"kind": "incident", "choice": {"par_target": "C19", "int_target": "C10"}}
+{"kind": "killer", "choice": [{"char": "C19", "ability": "MAIN_LOVERS"}]}
+{"kind": "loop_setup", "choice": {"scholar": "int"}}
+{"kind": "mm_cards", "choice": [{"target": "C10", "card": "INT2"}, {"target": "C12", "card": "PAR+"}, {"target": "C08", "card": "PAR+"}]}
+{"kind": "mm_cards", "choice": [{"target": "C10", "card": "INT1"}, {"target": "C12", "card": "PAR+"}, {"target": "C19", "card": "PAR+"}]}
+{"kind": "incident", "choice": {"par_target": "C19", "int_target": "C10"}}
+{"kind": "killer", "choice": [{"char": "C19", "ability": "MAIN_LOVERS"}]}
+{"kind": "loop_setup", "choice": {"scholar": "int"}}

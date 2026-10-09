@@ -1,0 +1,52 @@
+{
+ "id": "gen_s11_036",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 6,
+ "rules": [
+  "Y_BOMB",
+  "X_FACTOR",
+  "X_LOVE"
+ ],
+ "roles": {
+  "C12": "WITCH",
+  "C03": "FACTOR",
+  "C20": "LOVERS",
+  "C22": "MAIN_LOVERS"
+ },
+ "characters": [
+  "C03",
+  "C04",
+  "C12",
+  "C16",
+  "C20",
+  "C22",
+  "C25",
+  "C27"
+ ],
+ "incidents": [
+  {
+   "day": 3,
+   "id": "CORRUPT",
+   "culprit": "C20"
+  },
+  {
+   "day": 4,
+   "id": "SPREAD",
+   "culprit": "C03"
+  },
+  {
+   "day": 6,
+   "id": "RUMOR_SPREAD",
+   "culprit": "C12"
+  }
+ ],
+ "use": "generated",
+ "territory": "SCH",
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 4,
+  "read_wins_vs_search": 2
+ }
+}

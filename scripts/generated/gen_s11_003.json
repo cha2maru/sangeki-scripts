@@ -1,0 +1,54 @@
+{
+ "id": "gen_s11_003",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 5,
+ "rules": [
+  "Y_SEAL",
+  "X_RUMOR",
+  "X_VIRUS"
+ ],
+ "roles": {
+  "C05": "KUROMAKU",
+  "C21": "CULTIST",
+  "C07": "MISLEADER"
+ },
+ "characters": [
+  "C01",
+  "C02",
+  "C05",
+  "C07",
+  "C09",
+  "C13",
+  "C21"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "REMOTE",
+   "culprit": "C01"
+  },
+  {
+   "day": 4,
+   "id": "RUMOR_SPREAD",
+   "culprit": "C09"
+  },
+  {
+   "day": 5,
+   "id": "CORRUPT",
+   "culprit": "C05"
+  }
+ ],
+ "use": "generated",
+ "appear": {
+  "C13": {
+   "loop": 2
+  }
+ },
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 3,
+  "read_wins_vs_search": 2
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "id": "gen_s24_010",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 5,
+ "rules": [
+  "Y_SEAL",
+  "X_FACTOR",
+  "X_KILLER"
+ ],
+ "roles": {
+  "C14": "KUROMAKU",
+  "C07": "CULTIST",
+  "C04": "FACTOR",
+  "C05": "FRIEND",
+  "C12": "SK"
+ },
+ "characters": [
+  "C04",
+  "C05",
+  "C07",
+  "C12",
+  "C14",
+  "C26",
+  "C30"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "MISSING",
+   "culprit": "C04"
+  },
+  {
+   "day": 4,
+   "id": "MISSING",
+   "culprit": "C14"
+  },
+  {
+   "day": 5,
+   "id": "BUTTERFLY",
+   "culprit": "C07"
+  }
+ ],
+ "use": "generated",
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 6,
+  "read_wins_vs_search": 3
+ }
+}

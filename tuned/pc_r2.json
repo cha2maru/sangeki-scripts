@@ -1,0 +1,22 @@
+{
+ "base": "readlookQ2",
+ "params": {
+  "urgency": 1.0,
+  "hold": 0.002,
+  "null_cost": 0.0,
+  "nulled_w": 0.6752,
+  "info_weight": 0.247,
+  "safe": 0.1033,
+  "zero": 0.0,
+  "obs": 0.0013,
+  "defense": 0.2291,
+  "intent": 0.4008,
+  "recall_mm": 0.0,
+  "probe": 0.0,
+  "reach_info": 1.8417,
+  "board_waste": 0.0
+ },
+ "tune": 0.6666666666666666,
+ "hold": 0.45454545454545453,
+ "source": "selfplay/runs/tune2_pc.jsonl"
+}

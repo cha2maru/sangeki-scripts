@@ -1,0 +1,65 @@
+{
+ "id": "gen_s23_020",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 7,
+ "rules": [
+  "Y_SEAL",
+  "X_CIRCLE",
+  "X_VIRUS"
+ ],
+ "roles": {
+  "C34": "KUROMAKU",
+  "C07": "CULTIST",
+  "C04": "FRIEND",
+  "C05": "FRIEND",
+  "C27": "MISLEADER"
+ },
+ "characters": [
+  "C02",
+  "C03",
+  "C04",
+  "C05",
+  "C07",
+  "C08",
+  "C27",
+  "C34"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "SUICIDE",
+   "culprit": "C34"
+  },
+  {
+   "day": 3,
+   "id": "REMOTE",
+   "culprit": "C27"
+  },
+  {
+   "day": 5,
+   "id": "MURDER",
+   "culprit": "C02"
+  },
+  {
+   "day": 6,
+   "id": "REMOTE",
+   "culprit": "C07"
+  },
+  {
+   "day": 7,
+   "id": "BUTTERFLY",
+   "culprit": "C05"
+  }
+ ],
+ "use": "generated",
+ "start": {
+  "C34": "CIT"
+ },
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 3,
+  "read_wins_vs_search": 5
+ }
+}

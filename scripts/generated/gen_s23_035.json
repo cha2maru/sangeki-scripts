@@ -1,0 +1,59 @@
+{
+ "id": "gen_s23_035",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 6,
+ "rules": [
+  "Y_BOMB",
+  "X_FACTOR",
+  "X_KILLER"
+ ],
+ "roles": {
+  "C09": "WITCH",
+  "C04": "FACTOR",
+  "C34": "FRIEND",
+  "C25": "SK"
+ },
+ "characters": [
+  "C02",
+  "C04",
+  "C05",
+  "C09",
+  "C13",
+  "C25",
+  "C29",
+  "C34"
+ ],
+ "incidents": [
+  {
+   "day": 4,
+   "id": "MURDER",
+   "culprit": "C05"
+  },
+  {
+   "day": 5,
+   "id": "CORRUPT",
+   "culprit": "C25"
+  },
+  {
+   "day": 6,
+   "id": "SUICIDE",
+   "culprit": "C13"
+  }
+ ],
+ "use": "generated",
+ "appear": {
+  "C13": {
+   "loop": 1
+  }
+ },
+ "start": {
+  "C34": "SCH"
+ },
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 7,
+  "read_wins_vs_search": 4
+ }
+}

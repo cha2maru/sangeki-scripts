@@ -1,0 +1,57 @@
+{
+ "id": "gen_s11_034",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 6,
+ "rules": [
+  "Y_BOMB",
+  "X_LOVE",
+  "X_KILLER"
+ ],
+ "roles": {
+  "C27": "WITCH",
+  "C18": "LOVERS",
+  "C21": "MAIN_LOVERS",
+  "C29": "FRIEND",
+  "C15": "SK"
+ },
+ "characters": [
+  "C04",
+  "C05",
+  "C10",
+  "C15",
+  "C18",
+  "C21",
+  "C27",
+  "C29"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "BUTTERFLY",
+   "culprit": "C05"
+  },
+  {
+   "day": 3,
+   "id": "MISSING",
+   "culprit": "C18"
+  },
+  {
+   "day": 5,
+   "id": "MISSING",
+   "culprit": "C10"
+  },
+  {
+   "day": 6,
+   "id": "MURDER",
+   "culprit": "C27"
+  }
+ ],
+ "use": "generated",
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 9,
+  "read_wins_vs_search": 8
+ }
+}

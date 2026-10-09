@@ -1,0 +1,58 @@
+{
+ "id": "gen_s11_023",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 5,
+ "rules": [
+  "Y_FUTURE",
+  "X_KILLER",
+  "X_LOVE"
+ ],
+ "roles": {
+  "C34": "CULTIST",
+  "C10": "TT",
+  "C31": "FRIEND",
+  "C05": "SK",
+  "C18": "LOVERS",
+  "C27": "MAIN_LOVERS"
+ },
+ "characters": [
+  "C05",
+  "C07",
+  "C10",
+  "C18",
+  "C19",
+  "C20",
+  "C25",
+  "C27",
+  "C31",
+  "C34"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "MISSING",
+   "culprit": "C34"
+  },
+  {
+   "day": 4,
+   "id": "SPREAD",
+   "culprit": "C19"
+  },
+  {
+   "day": 5,
+   "id": "BUTTERFLY",
+   "culprit": "C05"
+  }
+ ],
+ "use": "generated",
+ "start": {
+  "C34": "SCH"
+ },
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 5,
+  "read_wins_vs_search": 0
+ }
+}

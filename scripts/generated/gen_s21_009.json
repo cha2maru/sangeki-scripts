@@ -1,0 +1,58 @@
+{
+ "id": "gen_s21_009",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 4,
+ "days": 5,
+ "rules": [
+  "Y_CONTRACT",
+  "X_CIRCLE",
+  "X_KILLER"
+ ],
+ "roles": {
+  "C12": "KEY",
+  "C16": "FRIEND",
+  "C29": "FRIEND",
+  "C20": "MISLEADER",
+  "C05": "SK"
+ },
+ "characters": [
+  "C02",
+  "C05",
+  "C12",
+  "C14",
+  "C16",
+  "C20",
+  "C27",
+  "C29"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "CORRUPT",
+   "culprit": "C27"
+  },
+  {
+   "day": 3,
+   "id": "MURDER",
+   "culprit": "C29"
+  },
+  {
+   "day": 4,
+   "id": "RUMOR_SPREAD",
+   "culprit": "C20"
+  },
+  {
+   "day": 5,
+   "id": "BUTTERFLY",
+   "culprit": "C05"
+  }
+ ],
+ "use": "generated",
+ "territory": "SCH",
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 7,
+  "read_wins_vs_search": 3
+ }
+}

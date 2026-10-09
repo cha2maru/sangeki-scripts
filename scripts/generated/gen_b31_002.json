@@ -1,0 +1,61 @@
+{
+ "id": "gen_b31_002",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 7,
+ "rules": [
+  "Y_BOMB",
+  "X_CIRCLE",
+  "X_KILLER"
+ ],
+ "roles": {
+  "C27": "WITCH",
+  "C18": "FRIEND",
+  "C07": "FRIEND",
+  "C04": "MISLEADER",
+  "C34": "SK"
+ },
+ "characters": [
+  "C04",
+  "C07",
+  "C14",
+  "C16",
+  "C18",
+  "C25",
+  "C27",
+  "C34"
+ ],
+ "incidents": [
+  {
+   "day": 3,
+   "id": "BUTTERFLY",
+   "culprit": "C18"
+  },
+  {
+   "day": 5,
+   "id": "SUICIDE",
+   "culprit": "C07"
+  },
+  {
+   "day": 6,
+   "id": "HOSPITAL",
+   "culprit": "C16"
+  },
+  {
+   "day": 7,
+   "id": "MURDER",
+   "culprit": "C14"
+  }
+ ],
+ "use": "generated",
+ "territory": "HOS",
+ "start": {
+  "C34": "SCH"
+ },
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 12,
+  "read_wins_vs_search": 0
+ }
+}

@@ -1,0 +1,288 @@
+[
+ {
+  "id": "d27look-l2d4-mm",
+  "script": "designed/d27",
+  "seed": 51,
+  "mm": "positions/games/claude_mm_d27_look_s51.jsonl",
+  "pc_opp": "readlook",
+  "at": {
+   "loop": 2,
+   "day": 4,
+   "kind": "mm_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "PAR+",
+     "target": "C19"
+    }
+   ]
+  ],
+  "note": "J12「メインラバーズは暗躍0なら撃てない」の裏・J49・実-01。学者は特性の暗躍1・不安2（臨界2）。不安+1 で不安3 になれば、ターン終了フェイズにメインラバーズの能力で主人公の死。同じ日に医者（殺人事件の犯人）・委員長にも札を置いて止め手を散らす。記録の Claude はこれで取った",
+  "split": "tune",
+  "pc_rec": "positions/games/frozen_claude_mm_d27_look_s51_pc_readlook_s51.pkl"
+ },
+ {
+  "id": "d27look-l3d2-spread",
+  "script": "designed/d27",
+  "seed": 51,
+  "mm": "positions/games/claude_mm_d27_look_s51.jsonl",
+  "pc_opp": "readlook",
+  "at": {
+   "loop": 3,
+   "day": 2,
+   "kind": "incident",
+   "incident": "SPREAD"
+  },
+  "good": [
+   [
+    {
+     "par_target": "C19"
+    }
+   ]
+  ],
+  "note": "事-06「不安拡大の2つの効果を別々の負け筋へ振る」。学者（メインラバーズ、暗躍1）は今日の不安+1 で不安1。不安2 を学者へ置けば不安3 でターン終了フェイズに主人公の死、暗躍1 は委員長（契約）へ",
+  "split": "tune",
+  "pc_rec": "positions/games/frozen_claude_mm_d27_look_s51_pc_readlook_s51.pkl"
+ },
+ {
+  "id": "d27dp-l3d2-spread",
+  "script": "designed/d27",
+  "seed": 51,
+  "mm": "positions/games/claude_mm_d27_defplan3_s51.jsonl",
+  "pc_opp": "readdefplan",
+  "at": {
+   "loop": 3,
+   "day": 2,
+   "kind": "incident",
+   "incident": "SPREAD"
+  },
+  "good": [
+   [
+    {
+     "int_target": "C10"
+    }
+   ]
+  ],
+  "note": "ル構-02「勝ちが確定したら押さずに隠す」・ル構-03(b)。委員長は今日の暗躍+1 で暗躍1。暗躍1 を委員長へ置けば暗躍2 で契約の負けが確定（暗躍を取り除ける人物はいない）。不安2 は情報を生まない人物へ（記録の Claude は刑事）。学者に置くとメインラバーズを教える",
+  "split": "hold",
+  "pc_rec": "positions/games/frozen_claude_mm_d27_defplan3_s51_pc_readdefplan_s51.pkl"
+ },
+ {
+  "id": "d27look-l2d4-pc",
+  "script": "designed/d27",
+  "seed": 51,
+  "mm": "positions/games/claude_mm_d27_look_s51.jsonl",
+  "pc_opp": "readlook",
+  "at": {
+   "loop": 2,
+   "day": 4,
+   "kind": "pc_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "PAR-",
+     "target": "C19"
+    }
+   ]
+  ],
+  "bad": [
+   [
+    {
+     "card": "PAR-",
+     "target": "C08"
+    }
+   ]
+  ],
+  "note": "フ-04「事件 → ターン終了の同じ日の連鎖を読む」・行-07・J12。学者は暗躍1・不安2 で伏せ札がある。不安+1 なら不安3 でメインラバーズの能力（ターン終了で主人公の死）が届く。医者は不安2 ですでに臨界、不安−1 で相殺しても殺人事件は止まらない（空振り）。記録の readlook は医者に不安−1 を置いて負けた",
+  "split": "tune",
+  "pc_rec": "positions/games/frozen_claude_mm_d27_look_s51_pc_readlook_s51.pkl"
+ },
+ {
+  "id": "d27look-l3d2-pc",
+  "script": "designed/d27",
+  "seed": 51,
+  "mm": "positions/games/claude_mm_d27_look_s51.jsonl",
+  "pc_opp": "readlook",
+  "at": {
+   "loop": 3,
+   "day": 2,
+   "kind": "pc_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "PAR-",
+     "target": "C12"
+    }
+   ],
+   [
+    {
+     "card": "PAR-",
+     "target": "C19"
+    }
+   ]
+  ],
+  "note": "事-05「補給の事件の犯人を止める」・事-06。ループ2 で学者（暗躍1・不安3）のターン終了の負けを見ている。異世界人は不安1（臨界2）で伏せ札あり、学者も伏せ札あり。異世界人に不安−1 で不安拡大を止めるか、学者に不安−1 で不安3 に届かせない。記録の readlook はどちらもせず負けた",
+  "split": "tune",
+  "pc_rec": "positions/games/frozen_claude_mm_d27_look_s51_pc_readlook_s51.pkl"
+ },
+ {
+  "id": "d27look-l4d5-pc",
+  "script": "designed/d27",
+  "seed": 51,
+  "mm": "positions/games/claude_mm_d27_look_s51.jsonl",
+  "pc_opp": "readlook",
+  "at": {
+   "loop": 4,
+   "day": 5,
+   "kind": "pc_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "INTX",
+     "target": "C10"
+    }
+   ]
+  ],
+  "note": "行-03「暗躍禁止の毎日固定」・ル-05。ループ1 で契約（委員長）は割れていて、委員長に伏せ札がある。暗躍禁止を外すと暗躍1 が乗り、最終日に暗躍禁止を委員長に縛られて病院の事件の筋（実-08）を止める札が無くなる。記録の readlook は暗躍禁止を出さなかった",
+  "split": "tune",
+  "pc_rec": "positions/games/frozen_claude_mm_d27_look_s51_pc_readlook_s51.pkl"
+ },
+ {
+  "id": "d27dp-l2d3-pc",
+  "script": "designed/d27",
+  "seed": 51,
+  "mm": "positions/games/claude_mm_d27_defplan3_s51.jsonl",
+  "pc_opp": "readdefplan",
+  "at": {
+   "loop": 2,
+   "day": 3,
+   "kind": "pc_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "PAR-",
+     "target": "C19"
+    }
+   ]
+  ],
+  "bad": [
+   [
+    {
+     "card": "PAR-",
+     "target": "C17"
+    }
+   ]
+  ],
+  "note": "行-07「不安−1 は重ねて相殺にしか効かない場面を見分ける」・J12・J49。学者は特性の暗躍1・不安2 で伏せ札あり、不安+1 で不安3 になればターン終了で主人公の死。ナースは不安0 で伏せ札も無く、不安−1 は空撃ち。記録の readdefplan はナースに不安−1 を置いて負けた",
+  "split": "hold",
+  "pc_rec": "positions/games/frozen_claude_mm_d27_defplan3_s51_pc_readdefplan_s51.pkl"
+ },
+ {
+  "id": "d27dp-l3d2-pc",
+  "script": "designed/d27",
+  "seed": 51,
+  "mm": "positions/games/claude_mm_d27_defplan3_s51.jsonl",
+  "pc_opp": "readdefplan",
+  "at": {
+   "loop": 3,
+   "day": 2,
+   "kind": "pc_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "PAR-",
+     "target": "C12"
+    }
+   ],
+   [
+    {
+     "card": "INTX",
+     "target": "C10"
+    }
+   ]
+  ],
+  "note": "事-05・ル-05。契約（委員長）とメインラバーズ（学者）は割れている。異世界人は不安1（臨界2）で伏せ札、委員長にも伏せ札。不安拡大が起きると委員長に暗躍1が乗り、暗躍+1 と合わせて暗躍2 で契約が確定する。異世界人に不安−1 か委員長に暗躍禁止のどちらかは要る。記録の readdefplan は移動2枚と友好で、どちらも打たずに確定させた",
+  "split": "tune",
+  "pc_rec": "positions/games/frozen_claude_mm_d27_defplan3_s51_pc_readdefplan_s51.pkl"
+ },
+ {
+  "id": "d27dp-l4d2-pc",
+  "script": "designed/d27",
+  "seed": 51,
+  "mm": "positions/games/claude_mm_d27_defplan3_s51.jsonl",
+  "pc_opp": "readdefplan",
+  "at": {
+   "loop": 4,
+   "day": 2,
+   "kind": "pc_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "PAR-",
+     "target": "C12"
+    }
+   ],
+   [
+    {
+     "card": "PAR-",
+     "target": "C19"
+    },
+    {
+     "card": "INTX",
+     "target": "C10"
+    }
+   ]
+  ],
+  "note": "事-05・事-06・フ-04。異世界人（不安1、臨界2）と学者（暗躍1）と委員長に伏せ札。不安拡大の不安2＋不安+1 で学者が不安3 になり、ターン終了で主人公の死。異世界人に不安−1 で事件ごと止めるのが本筋。学者に不安−1 なら、不安拡大の暗躍1 と暗躍+1 で委員長が暗躍2 になるので委員長への暗躍禁止と組で。記録の readdefplan は不安−1 を打たず負けた",
+  "split": "tune",
+  "pc_rec": "positions/games/frozen_claude_mm_d27_defplan3_s51_pc_readdefplan_s51.pkl"
+ },
+ {
+  "id": "d27dp-l5d2-pc",
+  "script": "designed/d27",
+  "seed": 51,
+  "mm": "positions/games/claude_mm_d27_defplan3_s51.jsonl",
+  "pc_opp": "readdefplan",
+  "at": {
+   "loop": 5,
+   "day": 2,
+   "kind": "pc_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "PAR-",
+     "target": "C12"
+    }
+   ],
+   [
+    {
+     "card": "PAR-",
+     "target": "C19"
+    },
+    {
+     "card": "INTX",
+     "target": "C10"
+    }
+   ]
+  ],
+  "bad": [
+   [
+    {
+     "card": "INTX",
+     "target": "C05"
+    }
+   ]
+  ],
+  "note": "d27dp-l4d2-pc と同じ形（最終ループ）。加えて、伏せ札の無い刑事への暗躍禁止は効果がない（記録の readdefplan はこれを打ち、不安拡大で負けた）",
+  "split": "hold",
+  "pc_rec": "positions/games/frozen_claude_mm_d27_defplan3_s51_pc_readdefplan_s51.pkl"
+ }
+]

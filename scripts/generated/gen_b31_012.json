@@ -1,0 +1,61 @@
+{
+ "id": "gen_b31_012",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 7,
+ "rules": [
+  "Y_BOMB",
+  "X_THREAD",
+  "X_FACTOR"
+ ],
+ "roles": {
+  "C26": "WITCH",
+  "C24": "FACTOR"
+ },
+ "characters": [
+  "C04",
+  "C08",
+  "C14",
+  "C17",
+  "C21",
+  "C24",
+  "C25",
+  "C26",
+  "C29",
+  "C30"
+ ],
+ "incidents": [
+  {
+   "day": 3,
+   "id": "MURDER",
+   "culprit": "C04"
+  },
+  {
+   "day": 4,
+   "id": "CORRUPT",
+   "culprit": "C29"
+  },
+  {
+   "day": 5,
+   "id": "SPREAD",
+   "culprit": "C17"
+  },
+  {
+   "day": 7,
+   "id": "HOSPITAL",
+   "culprit": "C08"
+  }
+ ],
+ "use": "generated",
+ "appear": {
+  "C24": {
+   "day": 2
+  }
+ },
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 9,
+  "read_wins_vs_search": 7
+ }
+}

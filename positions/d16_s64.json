@@ -1,0 +1,232 @@
+[
+ {
+  "id": "d16-l1d1-mm",
+  "script": "designed/d16",
+  "seed": 64,
+  "mm": "positions/games/cvc_d16_s64_mm.jsonl",
+  "pc": "positions/games/cvc_d16_s64_pc.jsonl",
+  "at": {
+   "loop": 1,
+   "day": 1,
+   "kind": "mm_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "INT2",
+     "target": "B:CIT"
+    },
+    {
+     "card": "INT1"
+    }
+   ],
+   [
+    {
+     "card": "INT1",
+     "target": "B:CIT"
+    },
+    {
+     "card": "INT2"
+    }
+   ]
+  ],
+  "note": "定石「二枚押し」。爆弾（ウィッチの初期エリア＝都市に暗躍2）を、暗躍+2 と暗躍+1 を別々の所に同時に置いて二択にする。暗躍禁止は1日1か所しか効かない。Claude の脚本家は都市に暗躍+2・神社に暗躍+1 で、主人公が神社を止めて初日に確定",
+  "split": "tune"
+ },
+ {
+  "id": "d16-l2d1-mm",
+  "script": "designed/d16",
+  "seed": 64,
+  "mm": "positions/games/cvc_d16_s64_mm.jsonl",
+  "pc": "positions/games/cvc_d16_s64_pc.jsonl",
+  "at": {
+   "loop": 2,
+   "day": 1,
+   "kind": "mm_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "INT2",
+     "target": "C34"
+    },
+    {
+     "card": "INT1",
+     "target": "B:CIT"
+    }
+   ],
+   [
+    {
+     "card": "INT2",
+     "target": "C20"
+    },
+    {
+     "card": "INT1",
+     "target": "B:CIT"
+    }
+   ]
+  ],
+  "bad": [
+   [
+    {
+     "card": "INT2",
+     "target": "B:CIT"
+    }
+   ]
+  ],
+  "note": "ループ1 の負け方で爆弾と都市は主人公に割れている。暗躍+2 を割れていない筋（フレンドへの暗躍2＝遠隔殺人の標的）へ、割れた都市には暗躍+1 を置いて暗躍禁止を吸わせる。都市への暗躍+2 は確実に止められる",
+  "split": "tune"
+ },
+ {
+  "id": "d16-l3d3-murder",
+  "script": "designed/d16",
+  "seed": 64,
+  "mm": "positions/games/cvc_d16_s64_mm.jsonl",
+  "pc": "positions/games/cvc_d16_s64_pc.jsonl",
+  "at": {
+   "loop": 3,
+   "day": 3,
+   "kind": "incident",
+   "incident": "MURDER"
+  },
+  "good": [
+   [
+    {
+     "target": "C05"
+    }
+   ]
+  ],
+  "note": "定石「守り手消し」。従者は病院へ逃げていて殺人事件の対象にできない。都市にいる刑事（刑事[5] で従者に護衛を置ける守り手）を殺して、5日目の遠隔殺人を止める道を消す",
+  "split": "tune"
+ },
+ {
+  "id": "d16-l1d5-pc",
+  "script": "designed/d16",
+  "seed": 64,
+  "mm": "positions/games/cvc_d16_s64_mm.jsonl",
+  "pc": "positions/games/cvc_d16_s64_pc.jsonl",
+  "at": {
+   "loop": 1,
+   "day": 5,
+   "kind": "pc_cards"
+  },
+  "bad": [
+   [
+    {
+     "card": "GW1",
+     "target": "C15"
+    }
+   ],
+   [
+    {
+     "card": "GW2",
+     "target": "C15"
+    }
+   ]
+  ],
+  "note": "マスコミの能力は前日に拒否された（友好無視か絶対友好無視）。同じループでまた友好を積んでも新しく分かることはほとんど無い（記録の主人公は2回目も拒否された）",
+  "split": "tune"
+ },
+ {
+  "id": "d16-l3d1-pc",
+  "script": "designed/d16",
+  "seed": 64,
+  "mm": "positions/games/cvc_d16_s64_mm.jsonl",
+  "pc": "positions/games/cvc_d16_s64_pc.jsonl",
+  "at": {
+   "loop": 3,
+   "day": 1,
+   "kind": "pc_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "INTX",
+     "target": "C34"
+    }
+   ]
+  ],
+  "note": "ループ2 で従者＝フレンドが割れ、従者への暗躍2 が遠隔殺人の標的になる筋がある。伏せ札のある従者に暗躍禁止を置けば、都市は行方不明の暗躍1 までに収まる（脚本家の Claude の振り返り）。記録の主人公は都市を止め、従者は暗躍2 になった",
+  "split": "hold"
+ },
+ {
+  "id": "d16-l2d2-mm",
+  "script": "designed/d16",
+  "seed": 64,
+  "mm": "positions/games/cvc_d16_s64_mm.jsonl",
+  "pc": "positions/games/cvc_d16_s64_pc.jsonl",
+  "at": {
+   "loop": 2,
+   "day": 2,
+   "kind": "mm_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "GWX",
+     "target": "C23"
+    }
+   ]
+  ],
+  "note": "行-12「友好能力の閾値の前日に友好禁止」・J35。教師は友好2で、友好+1 が通ると教師[3]（同じエリアの学生の不安を1つ取り除く）でお嬢様の不安1（臨界1）を消され、2日目の自殺（従者の身代わり＝フレンドの死）が止まる。教師に友好禁止が要の1枚。記録の Claude は友好禁止を教師に置き、自殺で従者が死んだ",
+  "split": "tune"
+ },
+ {
+  "id": "d16-l1d4-mm",
+  "script": "designed/d16",
+  "seed": 64,
+  "mm": "positions/games/cvc_d16_s64_mm.jsonl",
+  "pc": "positions/games/cvc_d16_s64_pc.jsonl",
+  "at": {
+   "loop": 1,
+   "day": 4,
+   "kind": "mm_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "GWX",
+     "target": "C05"
+    }
+   ],
+   [
+    {
+     "card": "GWX",
+     "target": "C15"
+    }
+   ]
+  ],
+  "note": "ル構-02「勝ちが確定したら押さずに隠す」＋行-12。都市の暗躍2（爆弾）は1日目に確定済み。残りの日は情報の能力を塞ぐ: 刑事は友好3で友好+1 が通れば刑事[4]（事件の犯人を知る）、マスコミは友好0で友好+2 が通ればマスコミ[2] の拒否（ル構-09: 拒否は証明＝絶対友好無視）が出る。どちらかへの友好禁止が良い。記録は刑事に友好禁止で、マスコミの拒否が漏れた",
+  "split": "hold"
+ },
+ {
+  "id": "d16-l2d2-pc",
+  "script": "designed/d16",
+  "seed": 64,
+  "mm": "positions/games/cvc_d16_s64_mm.jsonl",
+  "pc": "positions/games/cvc_d16_s64_pc.jsonl",
+  "at": {
+   "loop": 2,
+   "day": 2,
+   "kind": "pc_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "MV_V",
+     "target": "C34"
+    }
+   ]
+  ],
+  "bad": [
+   [
+    {
+     "card": "PAR-",
+     "target": "C03"
+    }
+   ]
+  ],
+  "note": "J30「従者の身代わりはキーパーソンの死をフレンドの死に変える」・J31・J14。お嬢様は不安1（臨界1）で、今日の自殺はもう止まらない（不安−1 は脚本家の札を相殺するだけ、教師[3] は友好禁止の恐れ）。止めるべきは身代わり: 従者を移動↑↓で神社へ離せば、お嬢様だけが死に、都市の暗躍0 なのでファクターでもキーパーソンの能力は無く無害。お嬢様への不安−1 は空振り（記録の主人公はこれで従者を失った）",
+  "split": "tune"
+ }
+]

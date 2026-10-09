@@ -1,0 +1,68 @@
+{
+ "id": "gen_s21_007",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 6,
+ "rules": [
+  "Y_MURDER",
+  "X_VIRUS",
+  "X_LOVE"
+ ],
+ "roles": {
+  "C10": "KEY",
+  "C13": "KILLER",
+  "C16": "KUROMAKU",
+  "C25": "MISLEADER",
+  "C14": "LOVERS",
+  "C21": "MAIN_LOVERS"
+ },
+ "characters": [
+  "C10",
+  "C13",
+  "C14",
+  "C16",
+  "C21",
+  "C25",
+  "C27"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "BUTTERFLY",
+   "culprit": "C14"
+  },
+  {
+   "day": 3,
+   "id": "SUICIDE",
+   "culprit": "C21"
+  },
+  {
+   "day": 4,
+   "id": "SUICIDE",
+   "culprit": "C27"
+  },
+  {
+   "day": 5,
+   "id": "HOSPITAL",
+   "culprit": "C13"
+  },
+  {
+   "day": 6,
+   "id": "MISSING",
+   "culprit": "C25"
+  }
+ ],
+ "use": "generated",
+ "appear": {
+  "C13": {
+   "loop": 1
+  }
+ },
+ "territory": "SCH",
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 8,
+  "read_wins_vs_search": 5
+ }
+}

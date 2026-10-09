@@ -1,0 +1,63 @@
+{
+ "id": "gen_s24_021",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 5,
+ "rules": [
+  "Y_MURDER",
+  "X_VIRUS",
+  "X_KILLER"
+ ],
+ "roles": {
+  "C23": "KEY",
+  "C09": "KILLER",
+  "C16": "KUROMAKU",
+  "C19": "MISLEADER",
+  "C14": "FRIEND",
+  "C24": "SK"
+ },
+ "characters": [
+  "C06",
+  "C09",
+  "C14",
+  "C16",
+  "C19",
+  "C23",
+  "C24"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "BUTTERFLY",
+   "culprit": "C19"
+  },
+  {
+   "day": 3,
+   "id": "SPREAD",
+   "culprit": "C24"
+  },
+  {
+   "day": 4,
+   "id": "MISSING",
+   "culprit": "C23"
+  },
+  {
+   "day": 5,
+   "id": "SUICIDE",
+   "culprit": "C14"
+  }
+ ],
+ "use": "generated",
+ "appear": {
+  "C24": {
+   "day": 3
+  }
+ },
+ "territory": "SCH",
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 8,
+  "read_wins_vs_search": 8
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "id": "gen_s11_038",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 7,
+ "rules": [
+  "Y_CONTRACT",
+  "X_FACTOR",
+  "X_RUMOR"
+ ],
+ "roles": {
+  "C12": "KEY",
+  "C03": "FACTOR",
+  "C24": "MISLEADER"
+ },
+ "characters": [
+  "C03",
+  "C06",
+  "C08",
+  "C12",
+  "C13",
+  "C17",
+  "C24",
+  "C26"
+ ],
+ "incidents": [
+  {
+   "day": 3,
+   "id": "REMOTE",
+   "culprit": "C13"
+  },
+  {
+   "day": 4,
+   "id": "BUTTERFLY",
+   "culprit": "C24"
+  },
+  {
+   "day": 6,
+   "id": "SPREAD",
+   "culprit": "C08"
+  }
+ ],
+ "use": "generated",
+ "appear": {
+  "C13": {
+   "loop": 1
+  },
+  "C24": {
+   "day": 3
+  }
+ },
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 5,
+  "read_wins_vs_search": 0
+ }
+}

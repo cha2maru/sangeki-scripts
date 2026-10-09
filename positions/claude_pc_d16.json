@@ -1,0 +1,79 @@
+[
+ {
+  "id": "d16gS-l2d1-pc",
+  "script": "designed/d16",
+  "seed": 66,
+  "pc": "positions/games/claude_pc_d16_guideS_s66.jsonl",
+  "mm_opp": "searchguideS",
+  "at": {
+   "loop": 2,
+   "day": 1,
+   "kind": "pc_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "MV_V",
+     "target": "C34"
+    }
+   ]
+  ],
+  "bad": [
+   [
+    {
+     "card": "MV_H",
+     "target": "C34"
+    }
+   ]
+  ],
+  "note": "J30・J31「従者は一緒に動く（引き離しは従者側を動かす）」・J14。ループ1 で従者がフレンドと公開され、お嬢様の自殺の身代わりで負けた。学校にはミスリーダーの教師がいてお嬢様に不安を置ける。従者だけを移動↑↓で神社へ離す。移動←→だと都市（殺人事件の犯人アルバイト、伏せ札あり）へ入り殺人事件の標的になる（脚本のpp）。記録の Claude は神社へ離した",
+  "split": "tune",
+  "mm_rec": "positions/games/frozen_claude_pc_d16_guideS_s66_mm_searchguideS_s66.pkl"
+ },
+ {
+  "id": "d16gS-l1d3-mm",
+  "script": "designed/d16",
+  "seed": 66,
+  "pc": "positions/games/claude_pc_d16_guideS_s66.jsonl",
+  "mm_opp": "searchguideS",
+  "at": {
+   "loop": 1,
+   "day": 3,
+   "kind": "mm_cards"
+  },
+  "bad": [
+   [
+    {
+     "card": "PAR-",
+     "target": "C32"
+    }
+   ]
+  ],
+  "note": "実-09「隠すための止め手で犯人を教えない」・ル構-02。従者（フレンド）が2日目に死に、このループの負けは確定。殺人事件を起こさないために犯人のアルバイトに不安−1 を置くと、行動解決で公開されて犯人を教える（記録の searchguideS はこれをした）",
+  "split": "tune",
+  "mm_rec": "positions/games/frozen_claude_pc_d16_guideS_s66_mm_searchguideS_s66.pkl"
+ },
+ {
+  "id": "d16g-l1d4-mm",
+  "script": "designed/d16",
+  "seed": 65,
+  "pc": "positions/games/claude_pc_d16_guide_s65.jsonl",
+  "mm_opp": "searchguide",
+  "at": {
+   "loop": 1,
+   "day": 4,
+   "kind": "mm_cards"
+  },
+  "good": [
+   [
+    {
+     "card": "GWX",
+     "target": "C23"
+    }
+   ]
+  ],
+  "note": "行-12「友好能力の閾値の前日に友好禁止」・J35。教師は友好3。友好+1 が通ると教師[4]（同じエリアの学生の役職を知る）でお嬢様＝ファクターが割れる。記録の searchguide は友好禁止を置かず、お嬢様がファクターと割れた",
+  "split": "hold",
+  "mm_rec": "positions/games/frozen_claude_pc_d16_guide_s65_mm_searchguide_s65.pkl"
+ }
+]

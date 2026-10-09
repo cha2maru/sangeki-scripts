@@ -1,0 +1,62 @@
+{
+ "id": "gen_b31_036",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 6,
+ "rules": [
+  "Y_FUTURE",
+  "X_LOVE",
+  "X_VIRUS"
+ ],
+ "roles": {
+  "C30": "CULTIST",
+  "C24": "TT",
+  "C12": "LOVERS",
+  "C21": "MAIN_LOVERS",
+  "C19": "MISLEADER"
+ },
+ "characters": [
+  "C05",
+  "C12",
+  "C19",
+  "C21",
+  "C23",
+  "C24",
+  "C25",
+  "C30"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "CORRUPT",
+   "culprit": "C30"
+  },
+  {
+   "day": 3,
+   "id": "BUTTERFLY",
+   "culprit": "C21"
+  },
+  {
+   "day": 5,
+   "id": "CORRUPT",
+   "culprit": "C24"
+  },
+  {
+   "day": 6,
+   "id": "CORRUPT",
+   "culprit": "C25"
+  }
+ ],
+ "use": "generated",
+ "appear": {
+  "C24": {
+   "day": 3
+  }
+ },
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 8,
+  "read_wins_vs_search": 0
+ }
+}

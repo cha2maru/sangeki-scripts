@@ -1,0 +1,58 @@
+{
+ "id": "gen_s21_013",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 5,
+ "rules": [
+  "Y_CONTRACT",
+  "X_LOVE",
+  "X_RUMOR"
+ ],
+ "roles": {
+  "C31": "KEY",
+  "C19": "LOVERS",
+  "C13": "MAIN_LOVERS",
+  "C15": "MISLEADER"
+ },
+ "characters": [
+  "C02",
+  "C07",
+  "C08",
+  "C09",
+  "C13",
+  "C15",
+  "C17",
+  "C19",
+  "C27",
+  "C31"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "HOSPITAL",
+   "culprit": "C17"
+  },
+  {
+   "day": 3,
+   "id": "RUMOR_SPREAD",
+   "culprit": "C02"
+  },
+  {
+   "day": 5,
+   "id": "SUICIDE",
+   "culprit": "C27"
+  }
+ ],
+ "use": "generated",
+ "appear": {
+  "C13": {
+   "loop": 2
+  }
+ },
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 7,
+  "read_wins_vs_search": 1
+ }
+}

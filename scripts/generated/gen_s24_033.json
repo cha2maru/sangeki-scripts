@@ -1,0 +1,57 @@
+{
+ "id": "gen_s24_033",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 7,
+ "rules": [
+  "Y_SEAL",
+  "X_VIRUS",
+  "X_THREAD"
+ ],
+ "roles": {
+  "C29": "KUROMAKU",
+  "C25": "CULTIST",
+  "C16": "MISLEADER"
+ },
+ "characters": [
+  "C02",
+  "C03",
+  "C06",
+  "C09",
+  "C16",
+  "C18",
+  "C24",
+  "C25",
+  "C29"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "CORRUPT",
+   "culprit": "C02"
+  },
+  {
+   "day": 5,
+   "id": "SPREAD",
+   "culprit": "C03"
+  },
+  {
+   "day": 7,
+   "id": "BUTTERFLY",
+   "culprit": "C25"
+  }
+ ],
+ "use": "generated",
+ "appear": {
+  "C24": {
+   "day": 2
+  }
+ },
+ "territory": "SCH",
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 3,
+  "read_wins_vs_search": 1
+ }
+}

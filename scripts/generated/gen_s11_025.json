@@ -1,0 +1,62 @@
+{
+ "id": "gen_s11_025",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 6,
+ "rules": [
+  "Y_FUTURE",
+  "X_CIRCLE",
+  "X_VIRUS"
+ ],
+ "roles": {
+  "C07": "CULTIST",
+  "C26": "TT",
+  "C34": "FRIEND",
+  "C27": "FRIEND",
+  "C04": "MISLEADER"
+ },
+ "characters": [
+  "C02",
+  "C04",
+  "C06",
+  "C07",
+  "C17",
+  "C18",
+  "C20",
+  "C26",
+  "C27",
+  "C34"
+ ],
+ "incidents": [
+  {
+   "day": 3,
+   "id": "BUTTERFLY",
+   "culprit": "C17"
+  },
+  {
+   "day": 4,
+   "id": "SPREAD",
+   "culprit": "C26"
+  },
+  {
+   "day": 5,
+   "id": "RUMOR_SPREAD",
+   "culprit": "C20"
+  },
+  {
+   "day": 6,
+   "id": "SUICIDE",
+   "culprit": "C06"
+  }
+ ],
+ "use": "generated",
+ "start": {
+  "C34": "SCH"
+ },
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 4,
+  "read_wins_vs_search": 0
+ }
+}

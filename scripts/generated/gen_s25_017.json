@@ -1,0 +1,60 @@
+{
+ "id": "gen_s25_017",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 5,
+ "rules": [
+  "Y_BOMB",
+  "X_VIRUS",
+  "X_CIRCLE"
+ ],
+ "roles": {
+  "C23": "WITCH",
+  "C13": "MISLEADER",
+  "C08": "FRIEND",
+  "C15": "FRIEND"
+ },
+ "characters": [
+  "C08",
+  "C12",
+  "C13",
+  "C14",
+  "C15",
+  "C17",
+  "C23"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "HOSPITAL",
+   "culprit": "C08"
+  },
+  {
+   "day": 3,
+   "id": "HOSPITAL",
+   "culprit": "C15"
+  },
+  {
+   "day": 4,
+   "id": "SUICIDE",
+   "culprit": "C17"
+  },
+  {
+   "day": 5,
+   "id": "HOSPITAL",
+   "culprit": "C13"
+  }
+ ],
+ "use": "generated",
+ "appear": {
+  "C13": {
+   "loop": 1
+  }
+ },
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 10,
+  "read_wins_vs_search": 2
+ }
+}

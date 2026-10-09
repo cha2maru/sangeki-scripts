@@ -1,0 +1,64 @@
+{
+ "id": "gen_b31_022",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 4,
+ "days": 6,
+ "rules": [
+  "Y_MURDER",
+  "X_RUMOR",
+  "X_FACTOR"
+ ],
+ "roles": {
+  "C31": "KEY",
+  "C04": "KILLER",
+  "C08": "KUROMAKU",
+  "C25": "MISLEADER",
+  "C02": "FACTOR"
+ },
+ "characters": [
+  "C02",
+  "C04",
+  "C06",
+  "C08",
+  "C12",
+  "C17",
+  "C21",
+  "C25",
+  "C29",
+  "C31"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "MISSING",
+   "culprit": "C04"
+  },
+  {
+   "day": 3,
+   "id": "MURDER",
+   "culprit": "C29"
+  },
+  {
+   "day": 4,
+   "id": "BUTTERFLY",
+   "culprit": "C08"
+  },
+  {
+   "day": 5,
+   "id": "HOSPITAL",
+   "culprit": "C25"
+  },
+  {
+   "day": 6,
+   "id": "HOSPITAL",
+   "culprit": "C06"
+  }
+ ],
+ "use": "generated",
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 9,
+  "read_wins_vs_search": 6
+ }
+}

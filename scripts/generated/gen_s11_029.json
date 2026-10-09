@@ -1,0 +1,59 @@
+{
+ "id": "gen_s11_029",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 6,
+ "rules": [
+  "Y_FUTURE",
+  "X_VIRUS",
+  "X_THREAD"
+ ],
+ "roles": {
+  "C09": "CULTIST",
+  "C31": "TT",
+  "C17": "MISLEADER"
+ },
+ "characters": [
+  "C04",
+  "C07",
+  "C09",
+  "C10",
+  "C17",
+  "C25",
+  "C31"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "CORRUPT",
+   "culprit": "C07"
+  },
+  {
+   "day": 3,
+   "id": "CORRUPT",
+   "culprit": "C17"
+  },
+  {
+   "day": 4,
+   "id": "SUICIDE",
+   "culprit": "C04"
+  },
+  {
+   "day": 5,
+   "id": "MISSING",
+   "culprit": "C31"
+  },
+  {
+   "day": 6,
+   "id": "MURDER",
+   "culprit": "C09"
+  }
+ ],
+ "use": "generated",
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 12,
+  "read_wins_vs_search": 0
+ }
+}

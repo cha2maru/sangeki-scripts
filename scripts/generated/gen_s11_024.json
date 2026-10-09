@@ -1,0 +1,63 @@
+{
+ "id": "gen_s11_024",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 5,
+ "rules": [
+  "Y_FUTURE",
+  "X_KILLER",
+  "X_FACTOR"
+ ],
+ "roles": {
+  "C03": "CULTIST",
+  "C24": "TT",
+  "C25": "FRIEND",
+  "C23": "SK",
+  "C15": "FACTOR"
+ },
+ "characters": [
+  "C03",
+  "C05",
+  "C15",
+  "C19",
+  "C21",
+  "C23",
+  "C24",
+  "C25",
+  "C30"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "CORRUPT",
+   "culprit": "C03"
+  },
+  {
+   "day": 3,
+   "id": "SUICIDE",
+   "culprit": "C05"
+  },
+  {
+   "day": 4,
+   "id": "CORRUPT",
+   "culprit": "C19"
+  },
+  {
+   "day": 5,
+   "id": "MISSING",
+   "culprit": "C24"
+  }
+ ],
+ "use": "generated",
+ "appear": {
+  "C24": {
+   "day": 2
+  }
+ },
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 3,
+  "read_wins_vs_search": 0
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "id": "gen_b31_033",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 6,
+ "rules": [
+  "Y_CONTRACT",
+  "X_KILLER",
+  "X_VIRUS"
+ ],
+ "roles": {
+  "C12": "KEY",
+  "C24": "FRIEND",
+  "C06": "SK",
+  "C17": "MISLEADER"
+ },
+ "characters": [
+  "C06",
+  "C10",
+  "C12",
+  "C13",
+  "C16",
+  "C17",
+  "C24",
+  "C25",
+  "C26"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "CORRUPT",
+   "culprit": "C25"
+  },
+  {
+   "day": 3,
+   "id": "MURDER",
+   "culprit": "C26"
+  },
+  {
+   "day": 5,
+   "id": "REMOTE",
+   "culprit": "C17"
+  },
+  {
+   "day": 6,
+   "id": "MURDER",
+   "culprit": "C12"
+  }
+ ],
+ "use": "generated",
+ "appear": {
+  "C13": {
+   "loop": 1
+  },
+  "C24": {
+   "day": 3
+  }
+ },
+ "territory": "CIT",
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 11,
+  "read_wins_vs_search": 6
+ }
+}

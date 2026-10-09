@@ -1,0 +1,55 @@
+{
+ "id": "gen_s11_033",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 5,
+ "rules": [
+  "Y_SEAL",
+  "X_VIRUS",
+  "X_FACTOR"
+ ],
+ "roles": {
+  "C06": "KUROMAKU",
+  "C23": "CULTIST",
+  "C10": "MISLEADER",
+  "C02": "FACTOR"
+ },
+ "characters": [
+  "C02",
+  "C05",
+  "C06",
+  "C10",
+  "C13",
+  "C23",
+  "C27"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "SPREAD",
+   "culprit": "C05"
+  },
+  {
+   "day": 3,
+   "id": "MISSING",
+   "culprit": "C13"
+  },
+  {
+   "day": 5,
+   "id": "CORRUPT",
+   "culprit": "C10"
+  }
+ ],
+ "use": "generated",
+ "appear": {
+  "C13": {
+   "loop": 2
+  }
+ },
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 6,
+  "read_wins_vs_search": 2
+ }
+}

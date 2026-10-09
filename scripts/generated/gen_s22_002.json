@@ -1,0 +1,60 @@
+{
+ "id": "gen_s22_002",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 7,
+ "rules": [
+  "Y_MURDER",
+  "X_CIRCLE",
+  "X_RUMOR"
+ ],
+ "roles": {
+  "C02": "KEY",
+  "C04": "KILLER",
+  "C08": "KUROMAKU",
+  "C26": "FRIEND",
+  "C12": "FRIEND",
+  "C29": "MISLEADER"
+ },
+ "characters": [
+  "C02",
+  "C04",
+  "C07",
+  "C08",
+  "C10",
+  "C12",
+  "C16",
+  "C26",
+  "C29"
+ ],
+ "incidents": [
+  {
+   "day": 3,
+   "id": "BUTTERFLY",
+   "culprit": "C08"
+  },
+  {
+   "day": 4,
+   "id": "CORRUPT",
+   "culprit": "C26"
+  },
+  {
+   "day": 6,
+   "id": "SUICIDE",
+   "culprit": "C02"
+  },
+  {
+   "day": 7,
+   "id": "SPREAD",
+   "culprit": "C16"
+  }
+ ],
+ "use": "generated",
+ "territory": "HOS",
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 3,
+  "read_wins_vs_search": 1
+ }
+}

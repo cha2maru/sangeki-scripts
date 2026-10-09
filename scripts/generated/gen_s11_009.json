@@ -1,0 +1,61 @@
+{
+ "id": "gen_s11_009",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 6,
+ "rules": [
+  "Y_MURDER",
+  "X_FACTOR",
+  "X_KILLER"
+ ],
+ "roles": {
+  "C26": "KEY",
+  "C02": "KILLER",
+  "C34": "KUROMAKU",
+  "C04": "FACTOR",
+  "C22": "FRIEND",
+  "C13": "SK"
+ },
+ "characters": [
+  "C02",
+  "C04",
+  "C05",
+  "C13",
+  "C22",
+  "C26",
+  "C27",
+  "C34"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "HOSPITAL",
+   "culprit": "C02"
+  },
+  {
+   "day": 4,
+   "id": "REMOTE",
+   "culprit": "C04"
+  },
+  {
+   "day": 5,
+   "id": "BUTTERFLY",
+   "culprit": "C27"
+  }
+ ],
+ "use": "generated",
+ "appear": {
+  "C13": {
+   "loop": 1
+  }
+ },
+ "start": {
+  "C34": "SCH"
+ },
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 7,
+  "read_wins_vs_search": 3
+ }
+}
