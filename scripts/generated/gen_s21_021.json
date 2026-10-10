@@ -1,0 +1,62 @@
+{
+ "id": "gen_s21_021",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 5,
+ "rules": [
+  "Y_BOMB",
+  "X_THREAD",
+  "X_VIRUS"
+ ],
+ "roles": {
+  "C21": "WITCH",
+  "C05": "MISLEADER"
+ },
+ "characters": [
+  "C05",
+  "C06",
+  "C17",
+  "C21",
+  "C24",
+  "C27",
+  "C30",
+  "C34"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "SUICIDE",
+   "culprit": "C30"
+  },
+  {
+   "day": 3,
+   "id": "HOSPITAL",
+   "culprit": "C21"
+  },
+  {
+   "day": 4,
+   "id": "REMOTE",
+   "culprit": "C17"
+  },
+  {
+   "day": 5,
+   "id": "SUICIDE",
+   "culprit": "C05"
+  }
+ ],
+ "use": "generated",
+ "appear": {
+  "C24": {
+   "day": 3
+  }
+ },
+ "start": {
+  "C34": "SCH"
+ },
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 5,
+  "read_wins_vs_search": 5
+ }
+}

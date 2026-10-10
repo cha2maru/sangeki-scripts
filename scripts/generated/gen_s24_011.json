@@ -1,0 +1,54 @@
+{
+ "id": "gen_s24_011",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 7,
+ "rules": [
+  "Y_FUTURE",
+  "X_CIRCLE",
+  "X_KILLER"
+ ],
+ "roles": {
+  "C06": "CULTIST",
+  "C27": "TT",
+  "C05": "FRIEND",
+  "C31": "FRIEND",
+  "C25": "MISLEADER",
+  "C12": "SK"
+ },
+ "characters": [
+  "C05",
+  "C06",
+  "C10",
+  "C12",
+  "C14",
+  "C21",
+  "C25",
+  "C27",
+  "C31"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "REMOTE",
+   "culprit": "C14"
+  },
+  {
+   "day": 3,
+   "id": "SPREAD",
+   "culprit": "C25"
+  },
+  {
+   "day": 4,
+   "id": "HOSPITAL",
+   "culprit": "C06"
+  }
+ ],
+ "use": "generated",
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 7,
+  "read_wins_vs_search": 8
+ }
+}

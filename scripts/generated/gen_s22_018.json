@@ -1,0 +1,55 @@
+{
+ "id": "gen_s22_018",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 7,
+ "rules": [
+  "Y_CONTRACT",
+  "X_KILLER",
+  "X_FACTOR"
+ ],
+ "roles": {
+  "C04": "KEY",
+  "C25": "FRIEND",
+  "C27": "SK",
+  "C34": "FACTOR"
+ },
+ "characters": [
+  "C04",
+  "C06",
+  "C08",
+  "C15",
+  "C25",
+  "C26",
+  "C27",
+  "C31",
+  "C34"
+ ],
+ "incidents": [
+  {
+   "day": 4,
+   "id": "REMOTE",
+   "culprit": "C31"
+  },
+  {
+   "day": 5,
+   "id": "RUMOR_SPREAD",
+   "culprit": "C34"
+  },
+  {
+   "day": 6,
+   "id": "SPREAD",
+   "culprit": "C04"
+  }
+ ],
+ "use": "generated",
+ "start": {
+  "C34": "SCH"
+ },
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 3,
+  "read_wins_vs_search": 1
+ }
+}

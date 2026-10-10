@@ -1,0 +1,59 @@
+{
+ "id": "gen_s24_026",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 5,
+ "rules": [
+  "Y_SEAL",
+  "X_LOVE",
+  "X_VIRUS"
+ ],
+ "roles": {
+  "C08": "KUROMAKU",
+  "C09": "CULTIST",
+  "C12": "LOVERS",
+  "C18": "MAIN_LOVERS",
+  "C30": "MISLEADER"
+ },
+ "characters": [
+  "C07",
+  "C08",
+  "C09",
+  "C12",
+  "C15",
+  "C16",
+  "C18",
+  "C25",
+  "C30"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "BUTTERFLY",
+   "culprit": "C18"
+  },
+  {
+   "day": 3,
+   "id": "BUTTERFLY",
+   "culprit": "C07"
+  },
+  {
+   "day": 4,
+   "id": "SPREAD",
+   "culprit": "C09"
+  },
+  {
+   "day": 5,
+   "id": "MURDER",
+   "culprit": "C30"
+  }
+ ],
+ "use": "generated",
+ "territory": "CIT",
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 7,
+  "read_wins_vs_search": 2
+ }
+}

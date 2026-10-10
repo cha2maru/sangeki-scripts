@@ -1,0 +1,68 @@
+{
+ "id": "gen_s24_032",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 4,
+ "days": 6,
+ "rules": [
+  "Y_SEAL",
+  "X_KILLER",
+  "X_LOVE"
+ ],
+ "roles": {
+  "C19": "KUROMAKU",
+  "C09": "CULTIST",
+  "C29": "FRIEND",
+  "C04": "SK",
+  "C02": "LOVERS",
+  "C27": "MAIN_LOVERS"
+ },
+ "characters": [
+  "C02",
+  "C04",
+  "C09",
+  "C14",
+  "C19",
+  "C25",
+  "C27",
+  "C29",
+  "C30",
+  "C34"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "HOSPITAL",
+   "culprit": "C19"
+  },
+  {
+   "day": 3,
+   "id": "BUTTERFLY",
+   "culprit": "C04"
+  },
+  {
+   "day": 4,
+   "id": "MISSING",
+   "culprit": "C34"
+  },
+  {
+   "day": 5,
+   "id": "REMOTE",
+   "culprit": "C29"
+  },
+  {
+   "day": 6,
+   "id": "CORRUPT",
+   "culprit": "C09"
+  }
+ ],
+ "use": "generated",
+ "start": {
+  "C34": "SCH"
+ },
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 9,
+  "read_wins_vs_search": 5
+ }
+}

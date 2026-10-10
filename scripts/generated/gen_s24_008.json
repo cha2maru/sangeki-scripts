@@ -1,0 +1,57 @@
+{
+ "id": "gen_s24_008",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 7,
+ "rules": [
+  "Y_BOMB",
+  "X_RUMOR",
+  "X_LOVE"
+ ],
+ "roles": {
+  "C19": "WITCH",
+  "C13": "MISLEADER",
+  "C15": "LOVERS",
+  "C07": "MAIN_LOVERS"
+ },
+ "characters": [
+  "C02",
+  "C07",
+  "C10",
+  "C13",
+  "C14",
+  "C15",
+  "C18",
+  "C19",
+  "C30"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "RUMOR_SPREAD",
+   "culprit": "C30"
+  },
+  {
+   "day": 3,
+   "id": "REMOTE",
+   "culprit": "C13"
+  },
+  {
+   "day": 4,
+   "id": "SUICIDE",
+   "culprit": "C15"
+  }
+ ],
+ "use": "generated",
+ "appear": {
+  "C13": {
+   "loop": 1
+  }
+ },
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 4,
+  "read_wins_vs_search": 0
+ }
+}

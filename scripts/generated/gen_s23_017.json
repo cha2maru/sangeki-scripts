@@ -1,0 +1,55 @@
+{
+ "id": "gen_s23_017",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 6,
+ "rules": [
+  "Y_CONTRACT",
+  "X_FACTOR",
+  "X_KILLER"
+ ],
+ "roles": {
+  "C03": "KEY",
+  "C26": "FACTOR",
+  "C30": "FRIEND",
+  "C06": "SK"
+ },
+ "characters": [
+  "C03",
+  "C04",
+  "C06",
+  "C09",
+  "C23",
+  "C26",
+  "C30"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "BUTTERFLY",
+   "culprit": "C06"
+  },
+  {
+   "day": 3,
+   "id": "CORRUPT",
+   "culprit": "C04"
+  },
+  {
+   "day": 4,
+   "id": "RUMOR_SPREAD",
+   "culprit": "C26"
+  },
+  {
+   "day": 6,
+   "id": "REMOTE",
+   "culprit": "C23"
+  }
+ ],
+ "use": "generated",
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 3,
+  "read_wins_vs_search": 2
+ }
+}

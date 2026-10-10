@@ -1,0 +1,63 @@
+{
+ "id": "gen_s21_018",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 6,
+ "rules": [
+  "Y_FUTURE",
+  "X_THREAD",
+  "X_KILLER"
+ ],
+ "roles": {
+  "C25": "CULTIST",
+  "C29": "TT",
+  "C14": "FRIEND",
+  "C04": "SK"
+ },
+ "characters": [
+  "C04",
+  "C05",
+  "C10",
+  "C14",
+  "C25",
+  "C26",
+  "C27",
+  "C29",
+  "C30",
+  "C31"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "HOSPITAL",
+   "culprit": "C30"
+  },
+  {
+   "day": 3,
+   "id": "REMOTE",
+   "culprit": "C26"
+  },
+  {
+   "day": 4,
+   "id": "MISSING",
+   "culprit": "C14"
+  },
+  {
+   "day": 5,
+   "id": "CORRUPT",
+   "culprit": "C04"
+  },
+  {
+   "day": 6,
+   "id": "MURDER",
+   "culprit": "C29"
+  }
+ ],
+ "use": "generated",
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 11,
+  "read_wins_vs_search": 6
+ }
+}

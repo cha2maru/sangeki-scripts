@@ -1,0 +1,66 @@
+{
+ "id": "gen_s23_014",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 4,
+ "days": 7,
+ "rules": [
+  "Y_MURDER",
+  "X_KILLER",
+  "X_THREAD"
+ ],
+ "roles": {
+  "C26": "KEY",
+  "C24": "KILLER",
+  "C20": "KUROMAKU",
+  "C04": "FRIEND",
+  "C27": "SK"
+ },
+ "characters": [
+  "C04",
+  "C05",
+  "C20",
+  "C24",
+  "C26",
+  "C27",
+  "C29"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "CORRUPT",
+   "culprit": "C05"
+  },
+  {
+   "day": 4,
+   "id": "BUTTERFLY",
+   "culprit": "C20"
+  },
+  {
+   "day": 5,
+   "id": "BUTTERFLY",
+   "culprit": "C24"
+  },
+  {
+   "day": 6,
+   "id": "SUICIDE",
+   "culprit": "C26"
+  },
+  {
+   "day": 7,
+   "id": "REMOTE",
+   "culprit": "C04"
+  }
+ ],
+ "use": "generated",
+ "appear": {
+  "C24": {
+   "day": 2
+  }
+ },
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 8,
+  "read_wins_vs_search": 7
+ }
+}

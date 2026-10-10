@@ -1,0 +1,62 @@
+{
+ "id": "gen_s22_028",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 4,
+ "days": 7,
+ "rules": [
+  "Y_CONTRACT",
+  "X_FACTOR",
+  "X_CIRCLE"
+ ],
+ "roles": {
+  "C04": "KEY",
+  "C03": "FACTOR",
+  "C24": "FRIEND",
+  "C26": "FRIEND",
+  "C34": "MISLEADER"
+ },
+ "characters": [
+  "C01",
+  "C03",
+  "C04",
+  "C08",
+  "C16",
+  "C23",
+  "C24",
+  "C26",
+  "C34"
+ ],
+ "incidents": [
+  {
+   "day": 4,
+   "id": "MURDER",
+   "culprit": "C03"
+  },
+  {
+   "day": 5,
+   "id": "MURDER",
+   "culprit": "C34"
+  },
+  {
+   "day": 7,
+   "id": "MURDER",
+   "culprit": "C16"
+  }
+ ],
+ "use": "generated",
+ "appear": {
+  "C24": {
+   "day": 3
+  }
+ },
+ "territory": "CIT",
+ "start": {
+  "C34": "CIT"
+ },
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 5,
+  "read_wins_vs_search": 1
+ }
+}

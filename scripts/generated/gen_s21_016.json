@@ -1,0 +1,51 @@
+{
+ "id": "gen_s21_016",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 6,
+ "rules": [
+  "Y_FUTURE",
+  "X_FACTOR",
+  "X_LOVE"
+ ],
+ "roles": {
+  "C17": "CULTIST",
+  "C06": "TT",
+  "C18": "FACTOR",
+  "C05": "LOVERS",
+  "C01": "MAIN_LOVERS"
+ },
+ "characters": [
+  "C01",
+  "C05",
+  "C06",
+  "C09",
+  "C15",
+  "C17",
+  "C18"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "SUICIDE",
+   "culprit": "C15"
+  },
+  {
+   "day": 3,
+   "id": "BUTTERFLY",
+   "culprit": "C05"
+  },
+  {
+   "day": 6,
+   "id": "SPREAD",
+   "culprit": "C17"
+  }
+ ],
+ "use": "generated",
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 11,
+  "read_wins_vs_search": 7
+ }
+}

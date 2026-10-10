@@ -1,0 +1,54 @@
+{
+ "id": "gen_s24_015",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 6,
+ "rules": [
+  "Y_BOMB",
+  "X_LOVE",
+  "X_KILLER"
+ ],
+ "roles": {
+  "C04": "WITCH",
+  "C34": "LOVERS",
+  "C29": "MAIN_LOVERS",
+  "C03": "FRIEND",
+  "C30": "SK"
+ },
+ "characters": [
+  "C03",
+  "C04",
+  "C10",
+  "C12",
+  "C29",
+  "C30",
+  "C34"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "SUICIDE",
+   "culprit": "C04"
+  },
+  {
+   "day": 3,
+   "id": "SPREAD",
+   "culprit": "C10"
+  },
+  {
+   "day": 6,
+   "id": "RUMOR_SPREAD",
+   "culprit": "C03"
+  }
+ ],
+ "use": "generated",
+ "start": {
+  "C34": "CIT"
+ },
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 7,
+  "read_wins_vs_search": 8
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "id": "gen_s25_027",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 7,
+ "rules": [
+  "Y_MURDER",
+  "X_CIRCLE",
+  "X_VIRUS"
+ ],
+ "roles": {
+  "C13": "KEY",
+  "C16": "KILLER",
+  "C30": "KUROMAKU",
+  "C04": "FRIEND",
+  "C24": "FRIEND",
+  "C15": "MISLEADER"
+ },
+ "characters": [
+  "C04",
+  "C07",
+  "C13",
+  "C15",
+  "C16",
+  "C18",
+  "C24",
+  "C30"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "CORRUPT",
+   "culprit": "C18"
+  },
+  {
+   "day": 4,
+   "id": "RUMOR_SPREAD",
+   "culprit": "C24"
+  },
+  {
+   "day": 6,
+   "id": "REMOTE",
+   "culprit": "C15"
+  }
+ ],
+ "use": "generated",
+ "appear": {
+  "C13": {
+   "loop": 2
+  },
+  "C24": {
+   "day": 3
+  }
+ },
+ "territory": "HOS",
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 9,
+  "read_wins_vs_search": 4
+ }
+}

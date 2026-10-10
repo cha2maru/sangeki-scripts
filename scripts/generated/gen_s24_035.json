@@ -1,0 +1,56 @@
+{
+ "id": "gen_s24_035",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 5,
+ "rules": [
+  "Y_FUTURE",
+  "X_FACTOR",
+  "X_LOVE"
+ ],
+ "roles": {
+  "C07": "CULTIST",
+  "C08": "TT",
+  "C14": "FACTOR",
+  "C09": "LOVERS",
+  "C21": "MAIN_LOVERS"
+ },
+ "characters": [
+  "C05",
+  "C07",
+  "C08",
+  "C09",
+  "C14",
+  "C19",
+  "C21"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "MURDER",
+   "culprit": "C08"
+  },
+  {
+   "day": 3,
+   "id": "RUMOR_SPREAD",
+   "culprit": "C05"
+  },
+  {
+   "day": 4,
+   "id": "CORRUPT",
+   "culprit": "C14"
+  },
+  {
+   "day": 5,
+   "id": "REMOTE",
+   "culprit": "C19"
+  }
+ ],
+ "use": "generated",
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 9,
+  "read_wins_vs_search": 0
+ }
+}

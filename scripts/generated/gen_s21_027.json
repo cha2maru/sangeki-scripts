@@ -1,0 +1,59 @@
+{
+ "id": "gen_s21_027",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 4,
+ "days": 6,
+ "rules": [
+  "Y_MURDER",
+  "X_CIRCLE",
+  "X_KILLER"
+ ],
+ "roles": {
+  "C09": "KEY",
+  "C20": "KILLER",
+  "C16": "KUROMAKU",
+  "C02": "FRIEND",
+  "C05": "FRIEND",
+  "C26": "MISLEADER",
+  "C31": "SK"
+ },
+ "characters": [
+  "C02",
+  "C05",
+  "C09",
+  "C16",
+  "C20",
+  "C26",
+  "C31"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "SUICIDE",
+   "culprit": "C16"
+  },
+  {
+   "day": 3,
+   "id": "RUMOR_SPREAD",
+   "culprit": "C05"
+  },
+  {
+   "day": 5,
+   "id": "HOSPITAL",
+   "culprit": "C02"
+  },
+  {
+   "day": 6,
+   "id": "HOSPITAL",
+   "culprit": "C09"
+  }
+ ],
+ "use": "generated",
+ "territory": "SCH",
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 9,
+  "read_wins_vs_search": 7
+ }
+}

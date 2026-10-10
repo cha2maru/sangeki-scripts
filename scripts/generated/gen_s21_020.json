@@ -1,0 +1,63 @@
+{
+ "id": "gen_s21_020",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 6,
+ "rules": [
+  "Y_FUTURE",
+  "X_FACTOR",
+  "X_KILLER"
+ ],
+ "roles": {
+  "C22": "CULTIST",
+  "C17": "TT",
+  "C16": "FACTOR",
+  "C23": "FRIEND",
+  "C05": "SK"
+ },
+ "characters": [
+  "C05",
+  "C09",
+  "C16",
+  "C17",
+  "C18",
+  "C22",
+  "C23",
+  "C24",
+  "C27",
+  "C34"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "BUTTERFLY",
+   "culprit": "C16"
+  },
+  {
+   "day": 4,
+   "id": "MURDER",
+   "culprit": "C22"
+  },
+  {
+   "day": 6,
+   "id": "MURDER",
+   "culprit": "C17"
+  }
+ ],
+ "use": "generated",
+ "appear": {
+  "C24": {
+   "day": 2
+  }
+ },
+ "territory": "SHR",
+ "start": {
+  "C34": "SCH"
+ },
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 11,
+  "read_wins_vs_search": 7
+ }
+}

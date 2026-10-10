@@ -1,0 +1,66 @@
+{
+ "id": "gen_s24_007",
+ "title": "自動生成",
+ "set": "BTX",
+ "loops": 3,
+ "days": 5,
+ "rules": [
+  "Y_BOMB",
+  "X_LOVE",
+  "X_VIRUS"
+ ],
+ "roles": {
+  "C13": "WITCH",
+  "C16": "LOVERS",
+  "C21": "MAIN_LOVERS",
+  "C22": "MISLEADER"
+ },
+ "characters": [
+  "C06",
+  "C09",
+  "C13",
+  "C14",
+  "C16",
+  "C18",
+  "C21",
+  "C22",
+  "C24"
+ ],
+ "incidents": [
+  {
+   "day": 2,
+   "id": "RUMOR_SPREAD",
+   "culprit": "C06"
+  },
+  {
+   "day": 3,
+   "id": "CORRUPT",
+   "culprit": "C14"
+  },
+  {
+   "day": 4,
+   "id": "BUTTERFLY",
+   "culprit": "C16"
+  },
+  {
+   "day": 5,
+   "id": "SUICIDE",
+   "culprit": "C22"
+  }
+ ],
+ "use": "generated",
+ "appear": {
+  "C13": {
+   "loop": 2
+  },
+  "C24": {
+   "day": 2
+  }
+ },
+ "territory": "HOS",
+ "stats": {
+  "games": 12,
+  "oread_wins_vs_search": 5,
+  "read_wins_vs_search": 0
+ }
+}
